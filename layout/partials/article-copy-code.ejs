@@ -1,0 +1,98 @@
+<% if(theme.codeblock.copy_button.enable){ %>
+<style>
+  .copy-btn {
+    display: inline-block;
+    padding: 6px 12px;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 20px;
+    color: #bbb;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    background-color: #f8f8f8;
+    /* background-image: linear-gradient(#fcfcfc, #eee); */
+    border: 1px solid #f8f8f8;
+    border-radius: 3px;
+    user-select: none;
+    outline: 0;
+  }
+
+  .copy-btn:hover {
+    color: #888
+  }
+
+  .highlight-wrap .copy-btn {
+    padding: 2px 6px;
+    position: absolute;
+    right: 10px;
+    top: 1px;
+    z-index: 2;
+  }
+
+
+
+  .highlight-wrap {
+    position: relative;
+  }
+
+  #copysuccess {
+    width: 200px;
+    height: 75px;
+    position: fixed;
+    right: 50%;
+    margin-right: -100px;
+    top: 50%;
+    margin-top: -40px;
+    color: #fff;
+    background: #3695e7;
+    display: none;
+    z-index: 99999;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 30px;
+    padding-top: 10px;
+    user-select: none;
+  }
+</style>
+
+<script>
+  addLoadEvent(() => {
+    $('.highlight').each(function (i, e) {
+      var $wrap = $('<div>').addClass('highlight-wrap')
+      $(e).after($wrap)
+      $wrap.append($('<button>').addClass('copy-btn').append('<%= __("codeblock.copy_button") %>').on('click', function (e) {
+        var copysuccess = document.getElementById('copysuccess');
+        copysuccess.style.display = 'block'
+        setTimeout(function () {
+          copysuccess.style.display = 'none'
+        }, 2000)
+        var code = $(this).parent().find(".code")[0].innerText
+          <% if (theme.codeblock.copyright.enable) { %>
+            code += "<%= theme.codeblock.copyright.content %>"
+              <% } %>
+                var ta = document.createElement('textarea')
+        document.body.appendChild(ta)
+        ta.style.position = 'absolute'
+        ta.style.top = '0px'
+        ta.style.left = '0px'
+        ta.value = code
+        ta.select()
+        ta.focus()
+        var result = document.execCommand('copy')
+        document.body.removeChild(ta)
+          <% if (theme.codeblock.copy_button.result) { %>
+                  if (result) $(this).text('<%= __("codeblock.copy_success") %>')
+            else $(this).text('<%= __("codeblock.copy_failure") %>')
+              <% } %>
+                $(this).blur()
+      })).on('mouseleave', function (e) {
+        var $b = $(this).find('.copy-btn')
+        setTimeout(function () {
+          $b.text('<%= __("codeblock.copy_button") %>')
+        }, 1000)
+      }).append(e)
+    })
+  })
+</script>
+<% } %>

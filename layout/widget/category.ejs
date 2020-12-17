@@ -1,0 +1,20 @@
+<% if (site.categories.length){ %>
+  <section class="widget-wrap">
+    <h3 class="widget-title"><%= __('categories') %></h3>
+    <div class="widget">
+      <!-- <%- list_categories({show_count: theme.show_count}) %> -->
+      <div class="categories-list">
+        <% if (site.categories) { %>
+          <% for (var j=0; j < site.categories.data.length; j++) { %> 
+            <% if (site.categories.data[j] && site.categories.data[j].name) { %>
+              <a class="category-list-item" href="/categories/<%- site.categories.data[j].name %>">
+                <span class="category-list-link"><%= site.categories.data[j].name %></span>
+                <span class="category-list-number">(<%= site.categories.data[j].posts.length %>)</span>
+              </a>
+            <% } %>
+          <% } %>
+        <% } %>
+      </div>
+    </div>
+  </section>
+<% } %>

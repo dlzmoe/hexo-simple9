@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+          <%- partial('partials/head') %>
+    <body>
+        <header>
+            <!-- cover image or sth. -->
+        </header>
+        <div id="main" class="m-scene">
+            <%- partial('partials/nav') %>
+            <div class="container content">
+                <div class="scene_element scene_element--fadein">
+                    <%- body %>
+                </div>
+            </div>
+        </div>
+        <%- partial('partials/footer') %>
+        <%- partial('partials/article-copy-code')%>
+        <div id="copysuccess">复制成功<br>欢迎阅读文章~</div>
+    </body>
+    
+</html>

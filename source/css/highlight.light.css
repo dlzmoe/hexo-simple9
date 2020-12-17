@@ -1,0 +1,218 @@
+.entry .gist {
+  background: #eee;
+  border: 1px solid color-border;
+  margin-top: 15px;
+  padding: 7px 15px;
+  border-radius: 2px;
+  text-shadow: 0 0 1px #fff;
+  line-height: 1.6;
+  overflow: auto;
+  color: #666;
+}
+.entry .gist .gist-file {
+  border: none;
+  font-family: inherit;
+  margin: 0;
+  font-size: 0.9em;
+}
+.entry .gist .gist-file .gist-data {
+  background: none;
+  border-bottom: none;
+}
+.entry .gist .gist-file .gist-data pre {
+  padding: 0 !important;
+  font-family: font-mono;
+}
+.entry .gist .gist-file .gist-meta {
+  background: none;
+  color: color-meta;
+  margin-top: 5px;
+  padding: 0;
+  text-shadow: 0 0 1px #fff;
+  font-size: 100%;
+}
+.entry .gist .gist-file .gist-meta a {
+  color: color-link;
+}
+.entry .gist .gist-file .gist-meta a:visited {
+  color: color-link;
+}
+figure.highlight {
+  /* background: #eee; */
+  border-radius: 5px;
+  /* border: 1px solid #eee; */
+  line-height: 1.6;
+  overflow: auto;
+  position: relative;
+  font-size: 0.9em;
+  margin: 15px -15px;
+  padding: 0 0;
+  font-family: Menlo,Monaco,Consolas,Courier New,monospace;
+}
+
+figure.highlight figcaption {
+  color: color-meta;
+  text-shadow: 0 0 1px #fff;
+}
+figure.highlight figcaption a {
+  position: absolute;
+  right: 15px;
+}
+figure.highlight pre {
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+figure.highlight table {
+  margin-top: 0;
+  border-spacing: 0;
+  width: 100%;
+}
+figure.highlight .gutter {
+  color: color-meta;
+  padding-right: 15px;
+  border-right: 1px solid color-border;
+  text-align: right;
+}
+figure.highlight .code {
+  padding-left: 15px;
+  color: #666;
+  background-color:#f6f8fa;
+  font-family: Consolas,Monaco,'Andale Mono','Ubuntu Mono',monospace !important;
+  color: #333;
+}
+figure.highlight .line {
+  height: 20px;
+}
+
+pre .template_comment,
+pre .diff .header,
+pre .doctype,
+pre .pi,
+pre .lisp .string,
+pre .javadoc {
+  color: #93a1a1;
+  font-style: italic;
+}
+
+pre .winutils,
+pre .method,
+pre .addition,
+pre .css .tag,
+pre .request,
+pre .status,
+pre .nginx .title {
+  color: #859900;
+}
+pre .number,
+pre .command,
+pre .string,
+pre .tag .value,
+pre .phpdoc,
+pre .tex .formula,
+pre .regexp,
+pre .hexcolor {
+  color: #2aa198;
+}
+pre .title,
+pre .localvars,
+pre .chunk,
+pre .decorator,
+pre .built_in,
+pre .identifier,
+pre .vhdl,
+pre .literal,
+pre .id {
+  color: #268bd2;
+}
+pre .attribute,
+pre .variable,
+pre .lisp .body,
+pre .smalltalk .number,
+pre .constant,
+pre .parent,
+pre .haskell .type {
+  color: #b58900;
+}
+pre .preprocessor,
+pre .preprocessor .keyword,
+pre .shebang,
+pre .symbol,
+pre .symbol .string,
+pre .diff .change,
+pre .special,
+pre .attr_selector,
+pre .important,
+pre .subst,
+pre .cdata,
+pre .clojure .title {
+  color: #cb4b16;
+}
+pre .deletion {
+  color: #dc322f;
+}
+
+pre .line {
+  color: #553922;
+}
+pre .tag,
+pre .meta,
+pre .bash {
+  /* color: navy; */
+  font-weight: 400;
+}
+
+pre .name {
+  /* color: navy; */
+}
+
+pre .line > .keyword {
+  color: rgb(215, 88, 226);
+  font-weight: 500;
+}
+ 
+pre .title {
+  color: rgb(250, 200, 99);
+}
+
+pre .comment {
+  color: rgb(42, 121, 47);
+  font-style: italic;
+}
+
+pre .string {
+  color: #d14;
+}
+
+pre .css .selector-id {
+  color: rgb(215, 186, 191);
+}
+
+pre .literal {
+  color: #259094;
+}
+
+pre .attr {
+  color: teal;
+}
+
+pre .params {
+  color: #d14;
+}
+.line .keyword,
+.line > .class > .keyword,
+.line > .function > .keyword {
+  color: #d73a49;
+}
+
+.line > .function > .title {
+  color: #6f42c1;
+}
+
+.line > .class > .title {
+  color: #2aa198;
+}
+
+.shell pre .line {
+  color: rgb(95, 95, 95);
+}

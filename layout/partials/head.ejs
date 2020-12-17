@@ -1,0 +1,48 @@
+<head>
+  <meta charset="utf-8">
+  <%
+    var title = page.title;
+
+    if (is_archive()){
+      title = __('archive_a');
+
+      if (is_month()){
+        title += ': ' + page.year + '/' + page.month;
+      } else if (is_year()){
+        title += ': ' + page.year;
+      }
+    } else if (is_category()){
+      title = __('category') + ': ' + page.category;
+    } else if (is_tag()){
+      title = __('tag') + ': ' + page.tag;
+    }
+    %>
+  <title>
+    <% if (title){ %><%= title %> | <% } %><%= config.title %>
+  </title>
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <meta name="theme-color" content="#4184f3">
+  <% if (theme.rss){ %>
+  <link href="<%- theme.rss %>" rel="alternate" title="<%= config.title %>" type="application/atom+xml" />
+  <% } %>
+  <% if (theme.favicon){ %>
+  <link href="<%- theme.favicon %>" rel="icon" />
+  <% } %>
+
+  <%- css('css/highlight.light') %>
+  <%- css('css/prism-customize') %>
+  <%- css('css/nav-icon') %>
+  <%- css('css/waves.min') %>
+  <%- css('css/jquery.tocify') %>
+  <%- css('css/main') %>
+  <%- css('css/nav-indicator') %>
+  <%- css('css/valine') %>
+  <%- css('css/search') %>
+  <%- partial('analytics') %>
+
+  </meta>
+  </meta>
+  <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.5.1/jquery.js"></script>
+  <%- js('js/comment') %>
+  <%- js('js/copy') %>
+</head>

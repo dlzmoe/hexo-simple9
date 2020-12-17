@@ -1,0 +1,37 @@
+.search {
+    max-width: 800px;
+    margin: 80px auto;
+}
+
+#site_search > input {
+    width: 300px;
+    height: 50px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 50px;
+    padding-left: 10px;
+    font-size: 17px;
+    color: rgb(51, 118, 177);
+    outline: none;
+    border: none;
+    background: rgba(164,177,191,.15);
+}
+
+#site_search > input:focus,
+#site_search > input:hover {
+    box-shadow: inset 0 0 0 2px #3ac0e8
+}
+
+.search-result-list {
+    list-style: none;
+}
+.search-result{
+    overflow: hidden;           /*自动隐藏文字*/  
+    white-space: nowrap;        /*强制不换行*/
+    text-overflow: ellipsis;    /*文字隐藏后添加省略号*/
+}
+
+.search-keyword {
+    color: red;
+    font-style: normal;
+}

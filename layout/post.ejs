@@ -1,0 +1,105 @@
+<div class="row">
+  <div class="main main-article">
+    <article>
+
+      <%if(page.cover){%>
+      <header class="post-header with-cover" style="background-image:url('<%- page.cover%>')">
+        <%}else{%>
+        <header class="post-header">
+          <%}%>
+          </header>
+
+          <!-- 面包屑 -->
+          <!-- <ul class="breadcrumb">
+            <li><a href="/">首页</a>&nbsp;&nbsp;/&nbsp;&nbsp;</li> 
+            <li><a href="#">
+              <span>
+                <%- list_categories(page.categories, {
+                  show_count: false,
+                  class: 'article-category',
+                  style: 'none',
+                  separator: ' '
+                }) %>
+              </span>
+              
+              </a></li>
+              <li>
+                <span><%- list_tags(page.tags, {
+                  show_count: false,
+                  class: 'post-tag'
+                }) %></span></li>
+            <li class="breadcrumb-active"><span style="color: #ccc">&nbsp;&nbsp;/&nbsp;&nbsp;</span>正文</li>
+          </ul> -->
+
+
+          
+          <h1 class="post-title"><%= page.title %></h1>
+
+          <section class="post-info post-info-bottom">
+            <span class="post-date">发布于<%- date(page.date, ' YYYY-MM-DD') %></span>
+            <% if (page.categories && page.categories.length && theme.show_post_category){ %>
+            <span class="post-category">分类:
+              <%- list_categories(page.categories, {
+                  show_count: false,
+                  class: 'article-category',
+                  style: 'none',
+                  separator: ' '
+                }) %>
+            </span>
+            <% } %>
+            <% if (page.tags && page.tags.length && theme.show_post_tags){ %>
+            <span class="post-tags">
+              <%- list_tags(page.tags, {
+                show_count: false,
+                class: 'post-tag'
+              }) %>
+            </span>
+            <% } %>
+          </section>
+
+          <section class="post-content">
+            <%-page.content%>
+          </section>
+    </article>
+    <% if (page.total > 1){ %>
+    <div class="pagination">
+      <%- paginator({
+              prev_text: "« "+__('prev'),
+              next_text: __('next')+" »"
+            }) %>
+    </div>
+    <% } %>
+
+    <!-- 版权声明 -->
+    <%- partial('partials/copyright') %>
+
+    <!-- comments -->
+    <h3 id="commenttitle">评论区</h3>
+    <%- partial('partials/comments') %>
+
+    <div class="right-icon">
+      <div id="to-valine" class="right-icon-item">
+        <a href="#commenttitle">评论</a>
+      </div>
+      <div id="to-top" class="right-icon-item">
+        <a>
+          <span class="top-left"></span>
+          <span class="top-right"></span>
+        </a>
+      </div>
+    </div>
+
+  </div>
+  <%if(page.toc){%>
+    
+  <aside>
+    
+    <div id="toc">
+    </div>
+  </aside>
+  <%}%>
+</div>
+
+<script>
+  $('#to-top').click(function () { $('html,body').animate({ scrollTop: '0px' }, 500); return false; });
+</script>

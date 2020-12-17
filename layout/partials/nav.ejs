@@ -1,0 +1,118 @@
+<% if(theme.themeColor){%>
+<div class="nav-wrapper" >
+<% }else {%>
+<div class="nav-wrapper" id="header">
+<% }%>
+    <div class="container">
+        <nav>
+            <div class="logo wave">
+                <a href="<%- url_for() %>" id="logo">
+                    <%= config.title %>
+                </a>
+            </div>
+
+            
+
+            <div class="nav-toggle-icon" >
+                <div class="material-hamburger">
+                    <span>
+                    </span>
+                    <span>
+                    </span>
+                    <span>
+                    </span>
+                </div>
+            </div>
+            <div class="menu-wrapper">
+                <div class="nav-indicator">
+                </div>
+                <ul class="menus">
+                    <%if(is_home()&&theme.active_nav){%>
+                     <% for (var i in theme.menu){ %>
+                        <li class="<%if(i=='home'){%>active<%}%>">
+                            <a class="<%if(i=='rss'){%>no-smoothstate<%}%>" href="<%- url_for(theme.menu[i]) %>">
+                                <%-  __(i) %>
+                            </a>
+                        </li>
+                     <% } %>
+                    <%}else if(is_category()&&theme.active_nav){%>
+                     <% for (var i in theme.menu){ %>
+                        <li class="<%if(i=='categories'){%>active<%}%>">
+                            <a class="wave <%if(i=='rss'){%>no-smoothstate<%}%>" href="<%- url_for(theme.menu[i]) %>">
+                                <%-  __(i) %>
+                            </a>
+                        </li>
+                     <% } %>
+                    <%}else if(is_archive()&&theme.active_nav){%>
+                     <% for (var i in theme.menu){ %>
+                        <li class="<%if(i=='archives'){%>active<%}%>">
+                            <a class="wave <%if(i=='rss'){%>no-smoothstate<%}%>" href="<%- url_for(theme.menu[i]) %>">
+                                <%-  __(i) %>
+                            </a>
+                        </li>
+                     <% } %>
+                    <%}else if(page.layout=='about'&&theme.active_nav){%>
+                     <% for (var i in theme.menu){ %>
+                        <li class="<%if(i=='about'){%>active<%}%>">
+                            <a class="wave <%if(i=='rss'){%>no-smoothstate<%}%>" href="<%- url_for(theme.menu[i]) %>">
+                                <%-  __(i) %>
+                            </a>
+                        </li>
+                     <% } %>
+                    <%}else{%>
+                     <% for (var i in theme.menu){ %>
+                        <li>
+                            <a class="wave <%if(i=='rss'){%>no-smoothstate<%}%>" href="<%- url_for(theme.menu[i]) %>">
+                                <%-  __(i) %>
+                            </a>
+                        </li>
+                     <% } %>
+                    <%}%>
+                   
+                </ul>
+            </div>
+        </nav>
+    </div>
+</div>
+<style>
+    #header{
+        /* background: linear-gradient(to right,blue,green); */
+        /* height: 70px; */
+        width: 100%;
+        /* position: sticky; */
+        left: 0;
+        top: 0;
+        transition-property:top,opacity;
+        transition-duration: 1s ;
+}
+</style>
+
+<!-- <script>
+    var agent = navigator.userAgent;
+    var header = document.getElementById('header')
+    if (/.*Firefox.*/.test(agent)) {
+        document.addEventListener("DOMMouseScroll", function(e) {
+            e = e || window.event;
+            var detail = e.detail;
+            if (detail > 0) {
+                header.style.display = 'block';
+            } else {
+                header.style.display = 'none';
+            }
+        });
+    } else {
+        document.onmousewheel = function(e) {
+            e = e || window.event;
+            var wheelDelta = e.wheelDelta;
+            if (wheelDelta > 0) {
+                header.style.top = '0';
+                // header.style.display = 'block';
+                header.style.opacity = '1';
+            } else {
+                header.style.top = '-70px';
+                header.style.opacity = '0';
+                // header.style.display = 'none';
+            }
+        }
+    }
+</script> -->

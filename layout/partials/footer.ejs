@@ -1,0 +1,112 @@
+<footer class="footer">
+  <div class="links-wrap-wrap">
+    <div class="links-wrap">
+      <% if (theme.links.length){ %>
+        <section class="link-wrap">
+          <h3 class="link-title"><%= __('links') %></h3>
+          <div>
+            <ul class="link-item-wrap">
+                <% for (var i in theme.links){ %>
+                <li class="link-item">
+                    <a href="<%- theme.links[i].url %>" title="<%- theme.links[i].intro %>">
+                        <%= theme.links[i].title %>
+                    </a>
+                </li>
+                <% } %>
+            </ul>
+          </div>
+        </section>
+      <% } %>
+    
+    
+      <% if (theme.navs.length){ %>
+        <section class="link-wrap">
+          <h3 class="link-title">导航</h3>
+          <div>
+            <ul class="link-item-wrap">
+                <% for (var i in theme.navs){ %>
+                <li class="link-item">
+                    <a href="<%- theme.navs[i].url %>" title="<%- theme.navs[i].intro %>">
+                        <%= theme.navs[i].title %>
+                    </a>
+                </li>
+                <% } %>
+            </ul>
+          </div>
+        </section>
+      <% } %>
+    </div>
+  </div>
+  
+    <div class="copyright-wrap">
+      <span>&copy; 2020-<%= date(new Date(), 'YYYY') %> <%= config.author || config.title %></span>
+      <span id="timeDate">载入天数...</span><!-- <span id="times">载入时分秒...</span> -->
+      
+    </div>
+</footer>
+<style>
+  .links-wrap-wrap {
+    height: auto;
+    width: 100%;
+  }
+  .links-wrap {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+  .link-wrap {
+    float: left;
+    /* display: inline-block; */
+    width: 50%;
+    /* margin: 0 auto; */
+  }
+  .link-title {
+    text-align: left;
+    font-size: 20px;
+  }
+  .link-item-wrap {
+    padding: 5px;
+    overflow: hidden;
+  }
+  .link-item {
+    float: left;
+    list-style: none;
+    padding-right: 30px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 2.6;
+  }
+  .link-item > a{
+    color: #e4e7ee;
+  }
+  .link-item > a:hover {
+    color: #fff;
+    text-decoration: underline;
+  }
+  .copyright-wrap {
+    display: block;
+    margin-top: 40px;
+    padding-bottom: 20px;
+  }
+</style>
+<script>
+    var now = new Date();
+    function createtime() {
+      var grt = new Date("06/14/2020 12:00:00");//此处修改你的建站时间或者网站上线时间 
+      now.setTime(now.getTime() + 250);
+      days = (now - grt) / 1000 / 60 / 60 / 24; dnum = Math.floor(days);
+      hours = (now - grt) / 1000 / 60 / 60 - (24 * dnum); hnum = Math.floor(hours);
+      if (String(hnum).length == 1) { hnum = "0" + hnum; } minutes = (now - grt) / 1000 / 60 - (24 * 60 * dnum) - (60 * hnum);
+      mnum = Math.floor(minutes); if (String(mnum).length == 1) { mnum = "0" + mnum; }
+      seconds = (now - grt) / 1000 - (24 * 60 * 60 * dnum) - (60 * 60 * hnum) - (60 * mnum);
+      snum = Math.round(seconds); if (String(snum).length == 1) { snum = "0" + snum; }
+      document.getElementById("timeDate").innerHTML = "本站已安全运行 " + dnum + " 天 ";
+      // document.getElementById("times").innerHTML = hnum + " 小时 " + mnum + " 分 " + snum + " 秒";
+    }
+    setInterval("createtime()", 1000);
+  </script>
+<%- js('lib/jquery') %>
+<%- js('lib/waves') %>
+<%- js('lib/jquery-ui') %>
+<%- js('lib/jquery.tocify') %>
+<%- js('js/main') %>

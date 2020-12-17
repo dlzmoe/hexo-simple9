@@ -1,0 +1,56 @@
+# main menu navigation
+menu:
+  home: /
+  archives: /archives
+  search: /search
+  message: /message
+  about: /about
+  
+  # rss: /atom.xml
+  
+
+# Miscelaneous
+favicon: https://i.loli.net/2020/12/09/j5XvyTN4PtESwKq.png
+# https://i.loli.net/2020/11/30/EMnk1sdixRm6H5t.png
+
+show_post_category: true
+show_post_tags: false
+
+active_nav: false # show active status on nav menu
+
+# aside栏
+sidebar: true # whether to show the sidebar
+widgets: 
+  - notice
+  - recent_posts
+  - category
+  - tag
+  # - tagcloud
+  - archive
+
+links:
+  - title: "鴻塵的博客"
+    url: https://hwame.top
+  - title: "陈园园的博客"
+    url: https://www.chen-yuan-yuan.icu
+
+navs:
+  - title: "必应搜索(bing)"
+    url: https://cn.bing.com
+  - title: "GitHub"
+    url: https://github.com/anghunk
+  - title: "关于我"
+    url: https://shuxhan.com/about
+  - title: "留言"
+    url: https://shuxhan.com/message
+
+ 
+# 代码复制
+codeblock: 
+  copy_button: 
+    enable: true
+    result: true
+  copyright:
+    enable: false
+    content: \n/**\n* 感谢您复制代码，使用代码请注明引用出处\n* kajweb @ https://shuxhan.com\n*/
+
