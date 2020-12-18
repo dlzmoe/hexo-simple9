@@ -57,11 +57,11 @@
 
             // **showAndHide**: Accepts a boolean: true or false
             // Used to determine if elements should be shown and hidden
-            showAndHide: true,
+            showAndHide: false,
 
             // **showEffect**: Accepts String: "none", "fadeIn", "show", or "slideDown"
             // Used to display any of the table of contents nested items
-            showEffect: "slideDown",
+            showEffect: "show",
 
             // **showEffectSpeed**: Accepts Number (milliseconds) or String: "slow", "medium", or "fast"
             // The time duration of the show animation
@@ -77,7 +77,7 @@
 
             // **smoothScroll**: Accepts a boolean: true or false
             // Determines if a jQuery animation should be used to scroll to specific table of contents items on the page
-            smoothScroll: true,
+            smoothScroll: false,
 
             // **smoothScrollSpeed**: Accepts Number (milliseconds) or String: "slow", "medium", or "fast"
             // The time duration of the smoothScroll animation
@@ -89,7 +89,7 @@
 
             // **showAndHideOnScroll**: Accepts a boolean: true or false
             // Determines if table of contents nested items should be shown and hidden while scrolling
-            showAndHideOnScroll: true,
+            showAndHideOnScroll: false,
 
             // **highlightOnScroll**: Accepts a boolean: true or false
             // Determines if table of contents nested items should be highlighted (set to a different color) while scrolling
