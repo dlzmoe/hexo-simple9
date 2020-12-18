@@ -43,6 +43,15 @@ hexo s
 
 然后修改项目配置中的`theme: anghunk`
 
+## 安装插件依赖
+
+每个hexo主题除了默认的依赖，还有各个作者后期引入的功能插件，每个主题不尽相同，本主题建议安装
+```shell
+npm install --save hexo-generator-feed hexo-generator-sitemap hexo-browsersync hexo-generator-archive
+npm install --save hexo-deployer-git hexo-generator-json-content hexo-generator-search
+npm install --save hexo-generator-search
+```
+
 ## 使用说明
 
 1.  可依靠[_config.yml]主题配置对博客进行配置
