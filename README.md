@@ -47,7 +47,7 @@ hexo s
 
 1.  可依靠[_config.yml]主题配置对博客进行配置
 2.  评论系统集成了 valine 和 twikoo 两种，可以参照官方文档进行配置，`../themes/anghunk/layout/partials/comments.ejs`文件是评论系统的配置文件
-3. ［关于页］
+3. ［关于］
    修改时进入`../themes/anghunk/layout/about.ejs`填写自己的内容，如不需要[关于]，请在主题配置中注释掉`about: /about`
 3.  文章生成
 ```
