@@ -2,39 +2,35 @@
 menu:
   home: /
   archives: /archives
-  search: /search
-  message: /message
+  # search: /search
+  # message: /message
   about: /about
-  
   # rss: /atom.xml
   
 
 # Miscelaneous
 favicon: https://i.loli.net/2020/12/09/j5XvyTN4PtESwKq.png
-# https://i.loli.net/2020/11/30/EMnk1sdixRm6H5t.png
 
 show_post_category: true
 show_post_tags: false
 
-active_nav: false # show active status on nav menu
-
 # aside栏
 sidebar: true # whether to show the sidebar
 widgets: 
-  - notice
-  - recent_posts
-  - category
-  - tag
-  # - tagcloud
-  - archive
+  - notice  # 公告
+  - recent_posts  # 最新文章
+  - category  # 分类
+  - tag # 标签
+  # - tagcloud  # 标签云
+  - archive # 归档
 
-links:
+links:  # 友情链接
   - title: "鴻塵的博客"
     url: https://hwame.top
   - title: "陈园园的博客"
     url: https://www.chen-yuan-yuan.icu
 
-navs:
+navs:   # 导航链接
   - title: "必应搜索(bing)"
     url: https://cn.bing.com
   - title: "GitHub"
