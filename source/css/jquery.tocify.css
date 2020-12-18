@@ -5,8 +5,8 @@
 
 /* The Table of Contents container element */
 .tocify {
-    /*width: 20%;*/
-    max-height: 90%;
+    width: 250px;
+    max-height: 80%;
     overflow: auto;
     /*margin-left: 2%;*/
     position: fixed;
@@ -32,8 +32,7 @@
 
 /* Top level subheader elements.  These are the first nested items underneath a header element. */
 .tocify-subheader {
-    text-indent: 20px;
-    display: none;
+    text-indent: 24px;
 }
 
 /* Makes the font smaller for all subheader elements. */
