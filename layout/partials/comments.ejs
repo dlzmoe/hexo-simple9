@@ -12,14 +12,14 @@
 <script>
     new Valine({
         el: '#vcomments',
-        appId: 'akHj8KSe0FYnkUceuKgIoSAy-MdYXbMMI',
-        appKey: 'GnS0rxPNTDkENDjHCQ31I3Qz',
+        appId: '您的appId',
+        appKey: '您的appKey',
         FIELD: 'mail',
         placeholder: '欢迎留言或评论哦~(支持markdown格式)',
         metaPlaceholder: { "nick": "输入qq号自动拉取邮箱...", "mail": "xxx@...", "link": "个人主页(https://)" },
         tagMeta: ['作者', '小伙伴', '访客'],
-        master: ['9dc7e4811bb7dd079886b8198075a80e'],
-        // friends: ['9dc7e4811bb7dd079886b8198075a80e'],
+        master: [''],   // 您的的邮箱32位转码 >> https://md5jiami.51240.com/
+        friends: [''],  // 您的小伙伴的邮箱的32位转码 
         enableQQ: true, // 是否输入qq自动拉取qq邮箱
         visitor: true, // 阅读量统计
         requiredFields: ['mail'],
@@ -85,4 +85,4 @@
 
 <div id="tcomment"></div>
 <script src="https://cdn.jsdelivr.net/npm/twikoo@0.3.3/dist/twikoo.all.min.js"></script>
-<script>twikoo.init({ envId: 'shuxhan-2gcz5b7m7f845ec3', el: '#tcomment' })</script>
+<script>twikoo.init({ envId: '您的环境id', el: '#tcomment' })</script>
