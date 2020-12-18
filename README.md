@@ -1,9 +1,9 @@
 # hexo-theme-anghunk-main
 
 ## 介绍
-基于hexo系统的一款简洁风博客主题
+基于hexo系统的一款简洁风博客主题，仓库将会长期维护，欢迎在 Issues 留言遇到的问题，或者来我的博客进行交流
 
-[demo](https://shuxhan.com)
+[主题demo演示](https://shuxhan.com)
 
 ## 主题页面
 - 首页
@@ -13,7 +13,14 @@
 - 留言
 - 关于
 
+## 已有功能
+- [x] 目录
+- [x] 评论
+- [ ] 说说
+
 ## 安装教程
+
+### 选择一
 
 1. 下载主题源码
 ```shell
@@ -28,6 +35,12 @@ theme: anghunk
 ```shell
 hexo s
 ```
+
+### 选择二
+
+直接点击code下载原文件，然后拷贝到您的`themes`文件夹内
+
+然后修改项目配置中的`theme: anghunk`
 
 ## 使用说明
 
@@ -44,14 +57,15 @@ toc: true # 是否生成目录(true生成；默认不写toc则不生成)
 cover:  # 标题背景图片
 ---
 ```
-4. 如有其他问题，可在 Issues 留言，
-   或者给 zsh981109@163.com 发一封电子邮件，
-   或者在我的博客留言区进行[留言](https://shuxhan.com/messgae)，
+4. 如有其他问题，
+- [x] 可在 Issues 留言，
+- [x] 给 zsh981109@163.com 发一封电子邮件，
+- [x] 在我的博客留言区进行[留言](https://shuxhan.com/messgae)，
    我都会在第一时间看到并回复
 
 ## 参与贡献
 
-1.  Fork 本仓库
+1.  `Fork` 或者 `Star` 本仓库，为作者增加一点鼓励
 2.  在 Issues 提问或讨论
 
 
