@@ -615,6 +615,10 @@ figure.highlight .gutter {
 .post-tag-list-link:hover{
   color: #00a3af;
 }
+.post-visitors {
+  margin-left: 10px;
+  color: #5c5959;
+}
 .read-more {
   float: right;
 }
