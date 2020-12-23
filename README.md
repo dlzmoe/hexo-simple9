@@ -50,7 +50,6 @@ hexo s
 ```shell
 npm install --save hexo-generator-feed hexo-generator-sitemap hexo-browsersync hexo-generator-archive
 npm install --save hexo-deployer-git hexo-generator-json-content hexo-generator-search
-npm install --save hexo-generator-search
 ```
 
 ## 使用说明
