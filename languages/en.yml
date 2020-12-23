@@ -1,0 +1,30 @@
+home: home
+archives: archives
+about: about
+message: message
+rss: rss
+categories: categories
+search: search
+tags: tags
+tweets: tweets
+prev: prev
+next: next
+comment: comment
+archive_a: archive_a
+archive_b: archive_b：%s
+page: %d
+recent_posts: recent_posts
+newer: newer
+newer: newer
+share: share
+powered_by: Powered by
+rss_feed: RSS Feed
+category: category
+tag: tag
+links: links
+no-title: no-title
+
+codeblock:
+  copy_button: Copy
+  copy_success: Copied
+  copy_failure: Copy err
