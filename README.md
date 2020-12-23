@@ -1,4 +1,4 @@
-# hexo-theme-anghunk-main
+# hexo-theme-simple99
 
 ## 介绍
 基于hexo系统的一款简洁风博客主题，仓库将会长期维护，欢迎在 Issues 留言遇到的问题，或者来我的博客进行交流
@@ -26,11 +26,11 @@
 1. 下载主题源码
 ```shell
 cd themes
-git clone https://github.com/anghunk/hexo-theme-anghunk-main.git
+git clone https://github.com/shuxhan/hexo-theme-simple99.git
 ```
 2. _config.yml 
 ```js
-theme: anghunk
+theme: hexo-theme-simple99
 ```
 3. 运行项目
 ```shell
@@ -41,7 +41,7 @@ hexo s
 
 直接点击code下载原文件，然后拷贝到您的`themes`文件夹内
 
-然后修改项目配置中的`theme: anghunk`
+然后修改项目配置中的`theme: hexo-theme-simple99`
 
 ## 安装插件依赖
 
@@ -55,9 +55,9 @@ npm install --save hexo-generator-search
 ## 使用说明
 
 1.  可依靠[_config.yml]主题配置对博客进行配置
-2.  评论系统集成了 valine 和 twikoo 两种，可以参照官方文档进行配置，`../themes/anghunk/layout/partials/comments.ejs`文件是评论系统的配置文件
+2.  评论系统集成了 valine 和 twikoo 两种，可以参照官方文档进行配置，`../themes/hexo-theme-simple99/layout/partials/comments.ejs`文件是评论系统的配置文件
 3. ［关于］
-   修改时进入`../themes/anghunk/layout/about.ejs`填写自己的内容，如不需要[关于]，请在主题配置中注释掉`about: /about`
+   修改时进入`../themes/hexo-theme-simple99/layout/about.ejs`填写自己的内容，如不需要[关于]，请在主题配置中注释掉`about: /about`
 3.  文章生成
 ```
 ---
@@ -83,6 +83,6 @@ cover:  # 标题背景图片
 
 ## 作者
 
-[anghunk](https://github.com/anghunk)
+[shuxhan](https://github.com/shuxhan)
 
 
