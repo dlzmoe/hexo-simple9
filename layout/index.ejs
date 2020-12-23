@@ -33,7 +33,7 @@
                       <%}else{%>
                         <%- strip_html(truncate(post.content,{length:150})) %>
                           <%}%>
-                            <!-- <span class="read-more btn"><a href="<%- url_for(post.path) %>" ><%=__('more')%></a></span> -->
+                            
                 </section>
     
                 <section class="post-info">
@@ -51,7 +51,7 @@
                           <%- list_tags(post.tags, { show_count: false, class: 'post-tag' }) %>
                         </span>
                         <% } %>
-    
+                        <span class="read-more btn"><a href="<%- url_for(post.path) %>" >阅读更多...</a></span>
                 </section>
               </div>
   

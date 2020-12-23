@@ -7,7 +7,7 @@
         <nav>
             <div class="logo wave">
                 <a href="<%- url_for() %>" id="logo">
-                    <%= config.title %>
+                    <%- theme.blogname %>
                 </a>
             </div>
 
@@ -23,6 +23,7 @@
                     </span>
                 </div>
             </div>
+
             <div class="menu-wrapper">
                 <div class="nav-indicator">
                 </div>
@@ -83,8 +84,8 @@
         left: 0;
         top: 0;
         transition-property:top,opacity;
-        transition-duration: 1s ;
-}
+        transition-duration: 1s ;   
+    }
 </style>
 
 <!-- <script>

@@ -76,7 +76,7 @@
     <%- partial('partials/copyright') %>
 
     <!-- comments -->
-    <h3 id="commenttitle">评论区</h3>
+    <h3 id="commenttitle" style="margin-top: 50px;">评论区</h3>
     <%- partial('partials/comments') %>
 
     <div class="right-icon">
@@ -92,15 +92,18 @@
     </div>
 
   </div>
+
+  <!-- 目录 -->
+  
   <%if(page.toc){%>
-    
-  <aside>
+  <aside> 
     
     <div id="toc">
     </div>
   </aside>
   <%}%>
 </div>
+
 
 <script>
   $('#to-top').click(function () { $('html,body').animate({ scrollTop: '0px' }, 500); return false; });

@@ -1,4 +1,4 @@
-# main menu navigation
+# main menu navigation | 导航栏
 menu:
   home: /
   archives: /archives
@@ -6,41 +6,70 @@ menu:
   # message: /message
   about: /about
   # rss: /atom.xml
-  
 
-# Miscelaneous
-favicon: https://i.loli.net/2020/12/09/j5XvyTN4PtESwKq.png
+# Personal profile | 个人简介
+author: 树寒
+blogname: 树寒的博客  # Logo and website name | logo及网站名称
+notice: <p>hello, world!</p><p>吾将上下而求索。</p><p>这里是树寒的博客!</p> # This is the announcement section of aside on the right | 公告部分
+email:   # email
+
+# 网站icon图标
+favicon: https://shuxhan.gitee.io/img/2020.12/github.png
 
 show_post_category: true
 show_post_tags: false
 
+active_nav: false # show active status on nav menu
+
 # aside栏
-sidebar: true # whether to show the sidebar
+sidebar: true # whether to show the sidebar | 是否展示sidebar部分
 widgets: 
   - notice  # 公告
-  - recent_posts  # 最新文章
   - category  # 分类
   - tag # 标签
-  # - tagcloud  # 标签云
-  - archive # 归档
+  - recent_posts  # 最近文章
+  - archive # 公告
 
+
+# footer link | 底部链接
 links:  # 友情链接
-  - title: "鴻塵的博客"
-    url: https://hwame.top
-  - title: "陈园园的博客"
-    url: https://www.chen-yuan-yuan.icu
+  - title: "树寒的博客"
+    url: https://shuxhan.com
 
-navs:   # 导航链接
+navs: # 导航
   - title: "必应搜索(bing)"
     url: https://cn.bing.com
   - title: "GitHub"
-    url: https://github.com/anghunk
-  - title: "关于我"
-    url: https://shuxhan.com/about
-  - title: "留言"
-    url: https://shuxhan.com/message
+    url: https://github.com
+  - title: "Gitee"
+    url: https://gitee.com
+  - title: "阿里云"
+    url: https://www.aliyun.com/
+  - title: "腾讯云"
+    url: https://cloud.tencent.com
 
- 
+community:  # 社区论坛
+  - title: "CSDN"
+    url: https://www.csdn.net
+  - title: "掘金"
+    url: https://juejin.cn
+  - title: "segmentfault思否"
+    url: https://segmentfault.com
+  - title: "博客园"
+    url: https://www.cnblogs.com
+
+file:   # 官方文档
+  - title: "React官方中文文档"
+    url: https://react.docschina.org
+  - title: "hexo官网"
+    url: https://hexo.io
+  - title: "less中文网"
+    url: http://lesscss.cn
+
+# Station construction time | 建站时间
+buildtime: 2020   # year
+datetime: 06/14/2020 12:00:00   # specific time, The station has been running safely | 本站已安全运行时间
+
 # 代码复制
 codeblock: 
   copy_button: 
@@ -50,3 +79,8 @@ codeblock:
     enable: false
     content: \n/**\n* 感谢您复制代码，使用代码请注明引用出处\n* kajweb @ https://shuxhan.com\n*/
 
+
+# This topic is built into the twikoo comment system |  本主题内置的是twikoo评论系统，
+# Official documents | 官方文档 https://twikoo.js.org/
+# twikoo:
+envID:  # 环境变量

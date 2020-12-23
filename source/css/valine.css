@@ -196,12 +196,14 @@ input:-ms-input-placeholder {
 
 
 /* Twikoo */
+.twikoo {
+  width: 95%;
+  margin: 0 auto;
+}
 .el-textarea__inner {
   height: 100px !important;
 }
-.tk-row > .tk-avatar {
-  /* display: none; */
-}
+
 .tk-time {
   font-size: 15px;
   display: inline !important;
@@ -223,13 +225,25 @@ input:-ms-input-placeholder {
 .tk-content > span > p {
   line-height: 1.6;
 }
+.tk-content > span > p >img {
+  max-width: 30px;
+}
 
 .tk-comment {
-
   padding-bottom: 20px;
   border-bottom: 1px solid #eee;
 }
 .at {
   display: none;
+}
+
+
+@media (max-width: 600px) {
+  .tk-row > .tk-avatar {
+    display: none;
+  }
+  .tk-row {
+    margin-left: 0 !important;
+  }
 }
 

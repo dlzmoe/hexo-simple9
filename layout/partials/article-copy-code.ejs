@@ -10,9 +10,9 @@
     white-space: nowrap;
     vertical-align: middle;
     cursor: pointer;
-    background-color: #f8f8f8;
+    /* background-color: rgb(245, 247, 249); */
     /* background-image: linear-gradient(#fcfcfc, #eee); */
-    border: 1px solid #f8f8f8;
+    /* border: 1px solid #f8f8f8; */
     border-radius: 3px;
     user-select: none;
     outline: 0;
@@ -27,7 +27,7 @@
     position: absolute;
     right: 10px;
     top: 1px;
-    z-index: 2;
+    z-index: 1;
   }
 
 
@@ -45,7 +45,8 @@
     top: 50%;
     margin-top: -40px;
     color: #fff;
-    background: #3695e7;
+    font-weight: 600;
+    background: #3694e7d8;
     display: none;
     z-index: 99999;
     border-radius: 10px;
@@ -61,7 +62,7 @@
     $('.highlight').each(function (i, e) {
       var $wrap = $('<div>').addClass('highlight-wrap')
       $(e).after($wrap)
-      $wrap.append($('<button>').addClass('copy-btn').append('<%= __("codeblock.copy_button") %>').on('click', function (e) {
+      $wrap.append($('<div>').addClass('copy-btn').append('<%= __("codeblock.copy_button") %>').on('click', function (e) {
         var copysuccess = document.getElementById('copysuccess');
         copysuccess.style.display = 'block'
         setTimeout(function () {

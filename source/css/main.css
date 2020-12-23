@@ -67,6 +67,7 @@ h1 {
 }
 
 h2 {
+  padding-top: 20px;
   padding-bottom: 0.3em;
   font-size: 20px;
   line-height: 1.225;
@@ -74,6 +75,7 @@ h2 {
 }
 
 h3 {
+  padding-top: 20px;
   font-size: 18px;
   line-height: 1.43;
 }
@@ -99,7 +101,7 @@ h6 {
 p {
   line-height: 30px;
   margin-bottom: 20px;
-  color: #4d4d4d;
+  color: #333332;
   /* font-family: "SF Pro Display",Roboto,Noto,Arial,"PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif; */
 }
 
@@ -252,6 +254,7 @@ nav a {
 }
 .container.content {
   margin-top: 25px;
+  
 }
 
 .about-wrap,
@@ -267,7 +270,7 @@ nav a {
   /* background: #fff; */
   flex: 3 1 auto;
   min-height: 320px;
-  max-width: 750px;
+  max-width: 840px;
   width: 100%;
   margin-top: 15px;
   position: relative;
@@ -287,8 +290,8 @@ nav a {
 }
 
 .main .post-title {
-  font-size: 20px;
-  margin-top: 60px;
+  font-size: 24px;
+  /* margin-top: 60px; */
 }
 .title-list {
   min-height: 320px;
@@ -335,7 +338,8 @@ aside .widget-wrap {
 }
 
 aside .widget-title {
-  line-height: 20px;
+  padding-top: 0;
+  line-height: 22px;
   font-size: 18px;
   padding-left: 10px;
   border-left: 4px solid #19abd6;
@@ -438,10 +442,10 @@ article tt {
 article blockquote {
   margin: 10px 0 10px;
   border: 0;
-  border-left: 5px solid #9B99F6;
+  border-left: 5px solid #72d0eb;
   padding: 8px;
   line-height: 1.4em;
-  background: #F6F6F2;
+  background: #f0f0f0bd;
 }
 article blockquote > p {
   margin: 0;
@@ -582,7 +586,11 @@ figure.highlight .gutter {
   color: #888;
   line-height: 26px;
 }
+.post-item {
+  width: 100%;
+}
 .post-info {
+  width: 100%;
   /*display: flex;*/
   justify-content: space-between;
   align-items: center;
@@ -621,6 +629,20 @@ figure.highlight .gutter {
 }
 .read-more {
   float: right;
+  padding: 2px 4px;
+  border-radius: 4px;
+  background-color: #269CE9;
+  border-color: #269CE9;
+}
+.read-more:hover {
+  background-color: #70B9E8;
+}
+.read-more:active {
+  background: #269CE9;
+}
+.read-more > a {
+  color: #fff;
+  font-weight: 600;
 }
 .post-main {
   display: flex;
@@ -668,7 +690,10 @@ ul.post-tag-list li.post-tag-list-item a::before {
 }
 
 .post-content {
-  font-size: 16px;
+  font-size: 15px;
+}
+.post-content > table  tr {
+  border: 1px solid #000;
 }
 
 .post-content,
@@ -698,13 +723,7 @@ article blockquote ul {
 .tocify li {
   border-left: 2px solid transparent;
 }
-.tocify li:hover {
-  /* background: #ebedef; */
-}
-.tocify li.tocify-focus {
-  /* border-left: 2px solid #0063ff; */
-  /* background: #ebedef; */
-}
+
 .tocify li.tocify-focus a {
   color: #007fff;
 }
@@ -789,6 +808,12 @@ figure.highlight figcaption {
 
   article blockquote {
     margin: 0;
+  }
+}
+
+@media (max-width: 768px) {
+    #header {
+    position: sticky;
   }
 }
 
@@ -889,7 +914,7 @@ kbd {
 
 .about {
   margin: 0 auto;
-  max-width: 727px;
+  max-width: 800px;
 }
 
 /* 文章侧边功能栏 */
@@ -1021,3 +1046,7 @@ summary:focus {
 red {
   color: red;
 }
+
+
+
+

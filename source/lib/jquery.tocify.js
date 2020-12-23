@@ -57,12 +57,12 @@
 
             // **showAndHide**: Accepts a boolean: true or false
             // Used to determine if elements should be shown and hidden
-            showAndHide: false,
+            showAndHide: true,
 
             // **showEffect**: Accepts String: "none", "fadeIn", "show", or "slideDown"
             // Used to display any of the table of contents nested items
             showEffect: "show",
-
+            
             // **showEffectSpeed**: Accepts Number (milliseconds) or String: "slow", "medium", or "fast"
             // The time duration of the show animation
             showEffectSpeed: "medium",
@@ -89,7 +89,7 @@
 
             // **showAndHideOnScroll**: Accepts a boolean: true or false
             // Determines if table of contents nested items should be shown and hidden while scrolling
-            showAndHideOnScroll: false,
+            showAndHideOnScroll: true,
 
             // **highlightOnScroll**: Accepts a boolean: true or false
             // Determines if table of contents nested items should be highlighted (set to a different color) while scrolling
@@ -319,12 +319,12 @@
                 elem.addClass(self.focusClass);
 
                 // If the showAndHide option is true
-                if(self.options.showAndHide) {
+                // if(self.options.showAndHide) {
 
-                    // Triggers the click event on the currently focused TOC item
-                    elem.click();
+                //     // Triggers the click event on the currently focused TOC item
+                //     elem.click();
 
-                }
+                // }
 
             }
 
