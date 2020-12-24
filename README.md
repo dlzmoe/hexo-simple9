@@ -38,6 +38,7 @@ theme: hexo-theme-simple99
 hexo s
 ```
 4. 发布文章
+
 这边强烈建议使用以下命令发布新的内容到github仓库中
 ```shell
 hexo clean && hexo g -d
