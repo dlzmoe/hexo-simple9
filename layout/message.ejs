@@ -1,0 +1,29 @@
+<div class="about-wrap">
+    <div class="main">
+        <h1 class="message-h1">留言</h1>
+        <blockquote class="message-blockquote">
+            <p>世界上最遥远的距离就是，我在这里，你却不留下一点点信息。</p>
+            </blockquote>
+        <%- partial('partials/comments') %>
+    </div>
+</div>
+
+<style>
+    .message-h1 {
+        padding-bottom: 0.3em;
+        font-size: 20px;
+        line-height: 1.4;
+        padding-left: 10px;
+    }
+    .message-blockquote {
+        margin: 30px auto;
+        border: 0;
+        border-left: 5px solid #72d0eb;
+        background: #f0f0f0bd;
+        padding-left: 10px;
+        width: 96%;
+    }
+    .message-blockquote > p {
+        line-height: 40px;
+    }
+</style>

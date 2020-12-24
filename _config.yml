@@ -2,8 +2,8 @@
 menu:
   home: /
   archives: /archives
-  # search: /search
-  # message: /message
+  search: /search
+  message: /message
   about: /about
   # rss: /atom.xml
 
