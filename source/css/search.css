@@ -1,6 +1,7 @@
 .search {
     max-width: 800px;
-    margin: 80px auto;
+    margin: 120px auto;
+    min-height: 200px;
 }
 
 #site_search > input {
