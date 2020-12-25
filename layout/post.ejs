@@ -8,30 +8,6 @@
         <header class="post-header">
           <%}%>
           </header>
-
-          <!-- 面包屑 -->
-          <!-- <ul class="breadcrumb">
-            <li><a href="/">首页</a>&nbsp;&nbsp;/&nbsp;&nbsp;</li> 
-            <li><a href="#">
-              <span>
-                <%- list_categories(page.categories, {
-                  show_count: false,
-                  class: 'article-category',
-                  style: 'none',
-                  separator: ' '
-                }) %>
-              </span>
-              
-              </a></li>
-              <li>
-                <span><%- list_tags(page.tags, {
-                  show_count: false,
-                  class: 'post-tag'
-                }) %></span></li>
-            <li class="breadcrumb-active"><span style="color: #ccc">&nbsp;&nbsp;/&nbsp;&nbsp;</span>正文</li>
-          </ul> -->
-
-
           
           <h1 class="post-title"><%= page.title %></h1>
 
@@ -55,8 +31,13 @@
               }) %>
             </span>
             <% } %>
+            
             <!-- 阅读量统计 -->
-            <span class="post-visitors">阅读量:<span id="twikoo_visitors">0</span></span>
+            <%if(theme.visitors){%>
+              <span class="post-visitors">阅读量:<span id="twikoo_visitors">0</span></span>
+              <%}%>
+
+            
           </section>
 
           <section class="post-content">
@@ -83,12 +64,12 @@
       <div id="to-valine" class="right-icon-item">
         <a href="#commenttitle">评论</a>
       </div>
-      <div id="to-top" class="right-icon-item">
+      <!-- <div id="to-top" class="right-icon-item">
         <a>
           <span class="top-left"></span>
           <span class="top-right"></span>
         </a>
-      </div>
+      </div> -->
     </div>
 
   </div>

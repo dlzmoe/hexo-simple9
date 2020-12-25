@@ -12,6 +12,14 @@
                     <%- body %>
                 </div>
             </div>
+            <div class="right-icon">
+                <div id="to-top" class="right-icon-item">
+                  <a>
+                    <span class="top-left"></span>
+                    <span class="top-right"></span>
+                  </a>
+                </div>
+              </div>
     </div>
     <%- partial('partials/footer') %>
         <%- partial('partials/article-copy-code')%>
@@ -19,3 +27,7 @@
 </body>
 
 </html>
+
+<script>
+    $('#to-top').click(function () { $('html,body').animate({ scrollTop: '0px' }, 500); return false; });
+</script>

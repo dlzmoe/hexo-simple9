@@ -690,7 +690,7 @@ ul.post-tag-list li.post-tag-list-item a::before {
 }
 
 .post-content {
-  font-size: 15px;
+  font-size: 15.5px;
 }
 .post-content > table  tr {
   border: 1px solid #000;
@@ -755,12 +755,13 @@ article blockquote ul {
   margin-left: auto;
 }
 .pagination {
-  display: flex;
-  justify-content: center;
+  /* display: flex; */
+  /* justify-content: center; */
   height: 46px;
 }
+
 .pagination .page-number {
-  flex: 1 1 auto;
+  /* flex: 1 1 auto; */
   text-align: center;
 }
 .pagination .page-number,
@@ -920,6 +921,9 @@ kbd {
 /* 文章侧边功能栏 */
 #html {
   scroll-behavior: smooth;
+}
+#to-valine {
+  margin-bottom: 50px;
 }
 .right-icon {
   position: fixed;
