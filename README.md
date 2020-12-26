@@ -64,11 +64,12 @@ npm install --save hexo-generator-search
 2.  评论系统集成了 valine 和 twikoo 两种，可以参照官方文档进行配置，`../themes/hexo-theme-simple99/layout/partials/comments.ejs`文件是评论系统的配置文件
 3. ［关于］
    修改时进入`../themes/hexo-theme-simple99/layout/about.ejs`填写自己的内容，如不需要[关于]，请在主题配置中注释掉`about: /about`
-3.  文章生成
+3.  文章生成(所有标签内容，使用时可酌情选取自己所需)
 ```
 ---
 title: hello,world
-date: 2020-12-17
+date: 2020-12-17  # 发布时间
+updated: 2020-12-26  # 最后更新时间
 tags: 标签
 categories: 分类
 top: 9   # 文章是否置顶，默认不写top，不置顶；如果置顶可选择数字，如果有多个置顶，根据数字大小进行排序
