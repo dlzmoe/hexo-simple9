@@ -8,16 +8,16 @@ menu:
   # rss: /atom.xml
 
 # Personal profile | 个人简介
-author: 树寒
+author: 树寒    # author | 作者
 blogname: 树寒的博客  # Logo and website name | logo及网站名称
-notice: <p>hello, world!</p><p>吾将上下而求索。</p><p>这里是树寒的博客!</p> # This is the announcement section of aside on the right | 公告部分
+notice: <p>hello, world!<br>吾将上下而求索。<br>这里是树寒的博客!</p> # This is the announcement section of aside on the right | 公告部分
 email:   # email
 
 # 网站icon图标
-favicon: https://shuxhan.gitee.io/img/2020.12/github.png
+favicon:    # https://shuxhan.gitee.io/img/2020.12/github.png
 
 show_post_category: true
-show_post_tags: false
+show_post_tags: true
 
 active_nav: false # show active status on nav menu
 
@@ -82,5 +82,6 @@ codeblock:
 
 # This topic is built into the twikoo comment system |  本主题内置的是twikoo评论系统，
 # Official documents | 官方文档 https://twikoo.js.org/
-# twikoo:
+# twikoo
 envID:  # 环境变量
+visitors: true  # 是否显示文章阅读量

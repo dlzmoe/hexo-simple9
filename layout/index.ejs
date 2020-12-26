@@ -37,9 +37,16 @@
                 </section>
     
                 <section class="post-info">
-                  <span class="post-date">
-                    <%- date(post.date, 'YYYY/MM/DD' ) %>
+
+                  <span class="post-date">发布于
+                    <span class="post-date-text"><%- date(page.date, ' YYYY-MM-DD') %></span>
                   </span>
+      
+                  <span class="post-updated">更新于
+                    <span class="post-date-text"><%- date(page.updated, ' YYYY-MM-DD') %></span>
+                  </span>
+
+
                   <% if (post.categories && post.categories.length&&theme.show_post_category){ %>
                     <span class="post-category">
                       <%- list_categories(post.categories, { show_count: false, class: 'post-category' , style: 'none' ,

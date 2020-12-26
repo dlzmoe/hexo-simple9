@@ -12,7 +12,15 @@
           <h1 class="post-title"><%= page.title %></h1>
 
           <section class="post-info post-info-bottom">
-            <span class="post-date">发布于<%- date(page.date, ' YYYY-MM-DD') %></span>
+            <span class="post-date">发布于
+              <span class="post-date-text"><%- date(page.date, ' YYYY-MM-DD') %></span>
+            </span>
+
+            <span class="post-updated">更新于
+              <span class="post-date-text"><%- date(page.updated, ' YYYY-MM-DD') %></span>
+            </span>
+             
+
             <% if (page.categories && page.categories.length && theme.show_post_category){ %>
             <span class="post-category">分类:
               <%- list_categories(page.categories, {
@@ -52,12 +60,13 @@
             }) %>
     </div>
     <% } %>
+   
 
     <!-- 版权声明 -->
     <%- partial('partials/copyright') %>
 
     <!-- comments -->
-    <h3 id="commenttitle" style="margin-top: 50px;">评论区</h3>
+    <h3 id="commenttitle" style="margin-top: 50px;margin-left: 10px;">评论区</h3>
     <%- partial('partials/comments') %>
 
     <div class="right-icon">
