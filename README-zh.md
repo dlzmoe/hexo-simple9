@@ -3,7 +3,7 @@
 ## 介绍
 基于hexo系统的一款简洁风博客主题，仓库将会长期维护，欢迎在 Issues 留言遇到的问题，或者来我的博客进行交流。
 
-支持pc端、移动端完美显示。[查看英文文档]()
+支持pc端、移动端完美显示。[查看英文文档](https://github.com/shuxhan/hexo-theme-simple99/blob/main/README.md)
 
 欢迎使用本主题的在在Issues留下你的站点。
 
