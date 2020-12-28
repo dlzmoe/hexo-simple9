@@ -3,17 +3,17 @@
 /*material color pallete https://www.google.com/design/spec/style/color.html#color-color-palette*/
 /*文字选中效果*/
 *::selection {
-  background-color: #72d0eb;
+  background-color: pink;
   color: white;
 }
 
 *::-moz-selection {
-  background-color: #72d0eb;
+  background-color: pink;
   color: white;
 }
 
 *::-webkit-selection {
-  background-color:#72d0eb;
+  background-color: pink;
   color: white
 }
 
@@ -271,7 +271,7 @@ nav a {
   flex: 3 1 auto;
   min-height: 320px;
   max-width: 760px;
-  width: 100%;
+  width: 65%;
   margin-top: 15px;
   position: relative;
 }
@@ -398,7 +398,7 @@ aside .widget ul li a:hover {
 
 .tocify li,
 .tocify ul {
-  /* max-width: 150px; */
+  max-width: 250px;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -1067,7 +1067,11 @@ summary:focus {
 }
 
 red {
-  color: red;
+  color: #ff0000;
+}
+
+green {
+  color: #0ca00c;
 }
 
 

@@ -8,7 +8,7 @@
     width: 250px;
     max-height: 80%;
     overflow: auto;
-    /*margin-left: 2%;*/
+    margin-left: -2%;
     position: fixed;
     /*border: 1px solid #ccc;*/
     webkit-border-radius: 6px;
