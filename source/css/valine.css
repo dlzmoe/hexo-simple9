@@ -225,9 +225,7 @@ input:-ms-input-placeholder {
 .tk-content > span > p {
   line-height: 1.6;
 }
-.tk-content > span > p >img {
-  max-width: 30px;
-}
+
 
 .tk-comment {
   padding-bottom: 20px;

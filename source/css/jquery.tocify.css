@@ -5,15 +5,17 @@
 
 /* The Table of Contents container element */
 .tocify {
-    width: 250px;
+    /* width: 250px; */
     max-height: 80%;
     overflow: auto;
     margin-left: -2%;
-    position: fixed;
+    /* position: fixed; */
+    top: 0;
     /*border: 1px solid #ccc;*/
     webkit-border-radius: 6px;
     moz-border-radius: 6px;
     border-radius: 6px;
+
 }
 
 /* The Table of Contents is composed of multiple nested unordered lists.  These styles remove the default styling of an unordered list because it is ugly. */

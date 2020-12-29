@@ -12,6 +12,7 @@
           <h1 class="post-title"><%= page.title %></h1>
 
           <section class="post-info post-info-bottom">
+            
             <span class="post-date">发布于
               <span class="post-date-text"><%- date(page.date, ' YYYY-MM-DD') %></span>
             </span>
@@ -83,11 +84,25 @@
 
   <!-- 目录 -->
   
-  <%if(page.toc){%>
+  
   <aside> 
-    
-    <div id="toc">
-    </div>
+    <%- partial('partials/widgets') %>
+    <%if(page.toc){%>
+      <hr>
+      <div id="toc"></div>
+      <script>
+        $(function() {
+          var elm = $('#toc');
+          var startPos = $(elm).offset().top;
+          $.event.add(window, "scroll", function() {
+            var p = $(window).scrollTop();
+            $(elm).css('margin-left','-5px');
+            $(elm).css('position',((p) > startPos) ? 'fixed' : 'static');
+            $(elm).css('top',((p) > startPos) ? '20px' : '' )
+          })
+        })
+
+      </script>
   </aside>
   <%}%>
 </div>
@@ -95,4 +110,5 @@
 
 <script>
   $('#to-top').click(function () { $('html,body').animate({ scrollTop: '0px' }, 500); return false; });
+
 </script>

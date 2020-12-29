@@ -39,11 +39,9 @@
                 <section class="post-info">
 
                   <span class="post-date">发布于
-                    <span class="post-date-text"><%- date(page.date, ' YYYY-MM-DD') %></span>
+                    <span class="post-date-text"><%- date(post.date, ' YYYY-MM-DD') %></span>
                   </span>
       
-                
-
 
                   <% if (post.categories && post.categories.length&&theme.show_post_category){ %>
                     <span class="post-category">
