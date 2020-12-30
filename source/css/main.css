@@ -33,9 +33,9 @@ body {
   font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
   background-color: #eee;
-  
+  background-image: url('https://shuxhan.gitee.io/img/2020.12/body.png');
   overflow-x: hidden;
-  font-family: PingHei,"PingFang SC",Helvetica Neue,"Work Sans","Hiragino Sans GB","Microsoft YaHei",SimSun,sans-serif;
+  font-family: Helvetica Neue',Helvetica,Arial,'Microsoft YaHei',sans-serif;
 }
 
 body.nav-active {
@@ -265,7 +265,7 @@ nav a {
 }
 
 .main {
-  background-color: #fff;
+  background-color: #f8f8f8;
   box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.05);
   flex: 3 1 auto;
   min-height: 320px;
@@ -325,7 +325,7 @@ nav a {
 }
 
 aside {
-  background-color: #fff;
+  background-color: #f8f8f8;
   box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.05);
   flex: 1 1 auto;
   min-height: 50px;
@@ -903,7 +903,7 @@ figure.highlight figcaption {
     padding: 0 20px;
   }
   .container {
-    max-width: 1000px;
+    max-width: 1050px;
   }
   aside {
     display: block;

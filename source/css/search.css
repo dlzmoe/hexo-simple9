@@ -15,12 +15,13 @@
     color: rgb(51, 118, 177);
     outline: none;
     border: none;
-    background: rgba(164,177,191,.15);
+    background: rgba(71, 73, 75, 0.322);
+    box-shadow: inset 0 0 0 2px #535e61
 }
 
 #site_search > input:focus,
 #site_search > input:hover {
-    box-shadow: inset 0 0 0 2px #3ac0e8
+    box-shadow: inset 0 0 0 2px #242627
 }
 
 .search-result-list {
