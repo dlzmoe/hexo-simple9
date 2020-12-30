@@ -1,0 +1,53 @@
+/* Twikoo */
+.twikoo {
+  width: 95%;
+  margin: 0 auto;
+}
+.el-textarea__inner {
+  height: 100px !important;
+}
+
+.tk-time {
+  font-size: 15px;
+  display: inline !important;
+}
+
+.tk-time::before {
+  display: inline;
+  content: " \2022  ";
+  color: #999;
+}
+
+.tk-content {
+  font-size: 15px;
+  background: rgb(240,244,252);
+  padding: 1px 15px;
+  border-radius: 5px;
+}
+
+.tk-content > span > p {
+  line-height: 1.6;
+}
+
+
+.tk-comment {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #eee;
+}
+.at {
+  display: none;
+}
+
+
+@media (max-width: 600px) {
+  .tk-row > .tk-avatar {
+    display: none;
+  }
+  .tk-row {
+    margin-left: 0 !important;
+  }
+}
+
+.tk-extras {
+  display: none !important;
+}

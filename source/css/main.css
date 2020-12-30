@@ -3,17 +3,17 @@
 /*material color pallete https://www.google.com/design/spec/style/color.html#color-color-palette*/
 /*文字选中效果*/
 *::selection {
-  background-color: pink;
+  background-color: #0089ac;
   color: white;
 }
 
 *::-moz-selection {
-  background-color: pink;
+  background-color: #0089ac;
   color: white;
 }
 
 *::-webkit-selection {
-  background-color: pink;
+  background-color: #0089ac;
   color: white
 }
 
@@ -785,6 +785,8 @@ article blockquote ul {
   margin-left: 5px;
   background: #1cb5df;
   color: #fff;
+  border-radius: 4px;
+  margin-bottom: 2px;
 }
 .pagination a:hover {
   background: #0a82a7;

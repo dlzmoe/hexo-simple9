@@ -8,13 +8,13 @@ menu:
   # rss: /atom.xml
 
 # Personal profile | 个人简介
-author: 树寒    # author | 作者
+author: 树寒
 blogname: 树寒的博客  # Logo and website name | logo及网站名称
-notice: <p>hello, world!<br>吾将上下而求索。<br>这里是树寒的博客!</p> # This is the announcement section of aside on the right | 公告部分
-email:   # email
+notice: <p>吾将上下而求索!</p> # This is the announcement section of aside on the right | 公告部分
+email: zsh981109@163.com  # email
 
 # 网站icon图标
-favicon:    # https://shuxhan.gitee.io/img/2020.12/github.png
+favicon: https://shuxhan.gitee.io/img/2020.12/han.png
 
 show_post_category: true
 show_post_tags: true
@@ -28,13 +28,17 @@ widgets:
   - category  # 分类
   - tag # 标签
   - recent_posts  # 最近文章
-  - archive # 公告
+  # - archive # 归档
 
 
 # footer link | 底部链接
 links:  # 友情链接
-  - title: "树寒的博客"
-    url: https://shuxhan.com
+  - title: "鴻塵的博客"
+    url: https://hwame.top
+  - title: "陈园园的博客"
+    url: https://www.chen-yuan-yuan.icu
+  - title: "艾谷度"
+    url: https://www.agoodu.com
 
 navs: # 导航
   - title: "必应搜索(bing)"
@@ -80,8 +84,8 @@ codeblock:
     content: \n/**\n* 感谢您复制代码，使用代码请注明引用出处\n* kajweb @ https://shuxhan.com\n*/
 
 
-# This topic is built into the twikoo comment system |  本主题内置的是twikoo评论系统，
+# This topic is built into the twikoo comment system |  本主题内置的是twikoo评论系统
 # Official documents | 官方文档 https://twikoo.js.org/
-# twikoo
-envID:  # 环境变量
-visitors: true  # 是否显示文章阅读量
+# twikoo:
+envID: shuxhan-2gcz5b7m7f845ec3 # 环境变量
+visitors: false  # 是否显示文章阅读量
