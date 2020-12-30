@@ -3,17 +3,17 @@
 /*material color pallete https://www.google.com/design/spec/style/color.html#color-color-palette*/
 /*文字选中效果*/
 *::selection {
-  background-color: #0089ac;
+  background-color: #414141;
   color: white;
 }
 
 *::-moz-selection {
-  background-color: #0089ac;
+  background-color: #414141;
   color: white;
 }
 
 *::-webkit-selection {
-  background-color: #0089ac;
+  background-color: #414141;
   color: white
 }
 
@@ -32,7 +32,7 @@ body {
   -webkit-font-smoothing: antialiased;
   font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
-  background-color: #F6F7F9;
+  background-color: #eee;
   
   overflow-x: hidden;
   font-family: PingHei,"PingFang SC",Helvetica Neue,"Work Sans","Hiragino Sans GB","Microsoft YaHei",SimSun,sans-serif;
@@ -144,7 +144,8 @@ a {
   top: 0;
   width: 100%;
   z-index: 9;
-  background: linear-gradient(to right,#19abd6 35%,#3ac0e8 100%);
+  background: rgba(0, 0, 0, 0.836);
+  /* background: linear-gradient(to right,#19abd6 35%,#3ac0e8 100%); */
 }
 
 nav {
@@ -344,7 +345,7 @@ aside .widget-title {
   line-height: 22px;
   font-size: 18px;
   padding-left: 10px;
-  border-left: 4px solid #19abd6;
+  border-left: 4px solid #3a3a3ab9;
 }
 aside .widget-title::before {
   position: absolute;
@@ -352,6 +353,11 @@ aside .widget-title::before {
 aside .widget ul {
   list-style: none;
   padding-left: 10px;
+}
+
+.widget .recent-posts {
+  list-style-type: disc;
+  padding-left: 18px;
 }
 
 aside .widget ul li {
@@ -444,7 +450,7 @@ article tt {
 article blockquote {
   margin: 10px 0 10px;
   border: 0;
-  border-left: 5px solid #72d0eb;
+  border-left: 5px solid #a7a7a7;
   padding: 8px;
   line-height: 1.4em;
   background: #f0f0f0bd;
@@ -639,14 +645,14 @@ figure.highlight .gutter {
   float: right;
   padding: 2px 4px;
   border-radius: 4px;
-  background-color: #269CE9;
-  border-color: #269CE9;
+  background-color: #73787a;
+  border-color: #636464;
 }
 .read-more:hover {
-  background-color: #70B9E8;
+  background-color: #4f5050;
 }
 .read-more:active {
-  background: #269CE9;
+  background: #73787a;
 }
 .read-more > a {
   color: #fff;
@@ -783,7 +789,7 @@ article blockquote ul {
   padding: 10px;
   margin-right: 5px;
   margin-left: 5px;
-  background: #1cb5df;
+  background: #535a5c;
   color: #fff;
   border-radius: 4px;
   margin-bottom: 2px;
@@ -897,7 +903,7 @@ figure.highlight figcaption {
     padding: 0 20px;
   }
   .container {
-    max-width: 1100px;
+    max-width: 1000px;
   }
   aside {
     display: block;
@@ -915,7 +921,7 @@ figure.highlight figcaption {
   /* padding-top: 30px; */
   text-align: center;
   font-size: 13px;
-  background-color: #546673;
+  background-color: #434647;
   color: #e4e7ee;
   border-top: 1px solid #ccc;
   overflow: hidden;
@@ -1000,37 +1006,37 @@ kbd {
 }
 
 #to-valine {
-  background-color: rgb(233, 240, 247);
+  background-color: #dbdbdb;
   position: relative;
   margin-right: 5px;
   border-radius: 5px;
 }
 #to-valine > a {
-  color: #00a3af;
-  border: 1px solid #00a3af;
+  color: #4d4d4d;
+  border: 2px solid #bcc0c4;
   border-radius: 5px;
   line-height: 32px;
   font-size: 14px;
 }
 #to-valine a:hover {
-  background: #eee;
+  background: #bcc0c4;
 }
 
 #to-top {
-  background-color: rgb(233, 240, 247);
+  background-color: #dbdbdb;
   position: relative;
   margin-right: 5px;
   border-radius: 5px;
 }
 #to-top a {
-  border: 1px solid #00a3af;
+  border: 2px solid #bcc0c4;
   border-radius: 5px;
   cursor: pointer;
 }
 .top-left {
   width: 0px; /*设置宽高为0，所以div的内容为空，从才能形成三角形尖角*/
   height: 0px;
-  border-bottom: 15px solid #00a3af;
+  border-bottom: 15px solid #4d4d4d;
   border-left: 16px solid transparent; /*transparent 表示透明*/
   border-right: 16px solid transparent;
   position: absolute;
@@ -1039,7 +1045,7 @@ kbd {
 }
 
 .top-right {
-  background: #00a3af;
+  background: #4d4d4d;
   width: 10px;
   height: 18px;
   position: absolute;
@@ -1048,7 +1054,7 @@ kbd {
 }
 
 #to-top:hover {
-  background: #eee;
+  background: #bcc0c4;
 }
 
 @media screen and (max-width: 630px) {
