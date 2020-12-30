@@ -2,11 +2,15 @@
 
 ## Introduction
 
-Introduce a simple blog theme based on the hexo system. The warehouse will be maintained for a long time. Welcome to leave a message on Issues or come to my blog to communicate.
+A simple style blog theme based on the hexo system, the theme is lighter in color, and the visual effect is soft.
+
+The warehouse will be maintained for a long time. Welcome to leave a message on Issues or come to my blog to communicate.
 
 Supports perfect display on PC and mobile terminals.[查看中文文档](https://github.com/shuxhan/hexo-theme-simple99/blob/main/README-zh.md)
 
 Welcome to use this theme to leave your site on Issues.
+
+ps：The coupling of this theme is extremely low, and the combination of pages can be freely matched, and interested students can explore in the code.
 
 ## Theme use display
 
@@ -66,16 +70,25 @@ Then modify the `theme: hexo-theme-simple99` in the project configuration
 
 ## Install plugin dependencies
 
-In addition to the default dependencies of each hexo theme, there are functional plug-ins introduced later by each author. Each theme is different. This theme recommends installing
+In addition to the default dependencies, each hexo theme also has functional plug-ins introduced later by each author. Each theme is different.
 
+The following are the plug-ins recommended for this theme, which can be downloaded according to your needs:
+
+1. Search function plugin
 ```shell
 npm install --save hexo-generator-search
+```
+
+2. Top function plugin
+```shell
+npm uninstall hexo-generator-index --save
+npm install hexo-generator-index-pin-top --save
 ```
 
 ## Instructions for use
 
 1.  The blog can be configured with the [_config.yml] theme configuration
-2.  The comment system integrates valine and twikoo. You can refer to the official documentation for configuration. The file `../themes/hexo-theme-simple99/layout/partials/comments.ejs` is the configuration file of the comment system
+2.  The comment system has built-in twikoo static comment system, you can refer to [official document](https://twikoo.js.org) for configuration, `../themes/hexo-theme-simple99/layout/partials/comments.ejs` file is Comment system configuration file
 3.  ［about］
     When modifying, enter `../themes/hexo-theme-simple99/layout/about.ejs` to fill in your own content, if you don’t need [About], please comment out `about: /about` in the theme configuration
 4.  Article generation (all label content, you can choose what you need when using it)
@@ -84,7 +97,6 @@ npm install --save hexo-generator-search
 ---
 title: hello,world
 date: 2020-12-17  # release time
-updated: 2020-12-26  # Last update time
 tags: tags
 categories: categories
 top: 9   # Whether the article is topped or not, the default is not to write top, not top; if the top is selected, the number can be selected, if there are multiple tops, sort by number
@@ -98,11 +110,12 @@ cover:  # Title background image
 - [x] You can leave a message in Issues
 - [x] Send an email to zsh981109@163.com
 - [x] [Message](https://shuxhan.com/message) in the message area of my blog,
-  I will see and reply the first time
+
+I will see and reply the first time
 
 ## Participate in contribution
 
-1.  `Fork` or `Star` this repository, add a little encouragement to the author
+1.  `Star` or `Fork` this repository, add a little encouragement to the author
 2.  Ask or discuss in Issues
 
 

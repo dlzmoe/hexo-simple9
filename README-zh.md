@@ -1,11 +1,15 @@
 # hexo-theme-simple99
 
 ## 介绍
-基于hexo系统的一款简洁风博客主题，仓库将会长期维护，欢迎在 Issues 留言遇到的问题，或者来我的博客进行交流。
+基于hexo系统的一款简洁风博客主题，主题色调偏淡色，视觉效果柔和。
+
+仓库将会长期维护，欢迎在 Issues 留言遇到的问题，或者来我的博客进行交流。
 
 支持pc端、移动端完美显示。[English document](https://github.com/shuxhan/hexo-theme-simple99/blob/main/README.md)
 
 欢迎使用本主题的在在Issues留下你的站点。
+
+ps：本主题耦合性极低，可自由搭配页面的组合，感兴趣的同学可以在代码里面尽情摸索。
 
 ## 主题使用展示
 [树寒的博客](https://shuxhan.com)(作者)
@@ -55,15 +59,25 @@ hexo clean && hexo g -d
 
 ## 安装插件依赖
 
-每个hexo主题除了默认的依赖，还有各个作者后期引入的功能插件，每个主题不尽相同，本主题建议安装
+每个hexo主题除了默认的依赖，还有各个作者后期引入的功能插件，每个主题不尽相同。
+
+下面是本主题建议安装的插件，可根据自己的需求进行下载：
+
+1. 搜索功能插件
 ```shell
 npm install --save hexo-generator-search
+```
+
+2. 置顶功能插件
+```shell
+npm uninstall hexo-generator-index --save
+npm install hexo-generator-index-pin-top --save
 ```
 
 ## 使用说明
 
 1.  可依靠[_config.yml]主题配置对博客进行配置
-2.  评论系统集成了 valine 和 twikoo 两种，可以参照官方文档进行配置，`../themes/hexo-theme-simple99/layout/partials/comments.ejs`文件是评论系统的配置文件
+2.  评论系统内置 twikoo 静态评论系统，可以参照[官方文档](https://twikoo.js.org)进行配置，`../themes/hexo-theme-simple99/layout/partials/comments.ejs`文件是评论系统的配置文件
 3. ［关于］
    修改时进入`../themes/hexo-theme-simple99/layout/about.ejs`填写自己的内容，如不需要[关于]，请在主题配置中注释掉`about: /about`
 3.  文章生成(所有标签内容，使用时可酌情选取自己所需)
@@ -71,7 +85,6 @@ npm install --save hexo-generator-search
 ---
 title: hello,world
 date: 2020-12-17  # 发布时间
-updated: 2020-12-26  # 最后更新时间
 tags: 标签
 categories: 分类
 top: 9   # 文章是否置顶，默认不写top，不置顶；如果置顶可选择数字，如果有多个置顶，根据数字大小进行排序
@@ -83,11 +96,12 @@ cover:  # 标题背景图片
 - [x] 可在 Issues 留言，
 - [x] 给 zsh981109@163.com 发一封电子邮件，
 - [x] 在我的博客留言区进行[留言](https://shuxhan.com/message)，
-   我都会在第一时间看到并回复
+   
+我都会在第一时间看到并回复
 
 ## 参与贡献
 
-1.  `Fork` 或者 `Star` 本仓库，为作者增加一点鼓励
+1.  `Star` 或者 `Fork` 本仓库，为作者增加一点鼓励
 2.  在 Issues 提问或讨论
 
 

@@ -2,10 +2,13 @@
   <div class="main index">
     <% page.posts.each(function(post, i){ %>
       <article class="list-item">
+
+
         <!-- 置顶 -->
         <% if (post.top) { %>
           <span class="zhiding">置顶</span>
-          <% } %>
+            <% } %>
+
             <a href="<%- url_for(post.path) %>">
               <%if(post.cover){%>
                 <header class="post-header with-cover"
