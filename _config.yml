@@ -13,13 +13,18 @@ blogname: 树寒的博客  # Logo and website name | logo及网站名称
 notice: <p>吾将上下而求索!</p> # This is the announcement section of aside on the right | 公告部分
 email: zsh981109@163.com  # email
 
+# Site introduction | 站点介绍，用于申请友链
+sitename: 树寒的博客  # 站点名称
+sitelink: https://shuxhan.com # 站点链接
+siteimg: https://shuxhan.gitee.io/img/2020.12/han.png # 站点头像
+siteintroduction: 吾将上下而求索！  # 站点介绍
+
 # 网站icon图标
 favicon: https://shuxhan.gitee.io/img/2020.12/han.png
 
+# Whether to display categories and tags on the home page | 首页目录是否显示分类标签
 show_post_category: true
 show_post_tags: true
-
-active_nav: false # show active status on nav menu
 
 # aside栏
 sidebar: true # whether to show the sidebar | 是否展示sidebar部分
@@ -28,7 +33,7 @@ widgets:
   - category  # 分类
   - tag # 标签
   - recent_posts  # 最近文章
-  # - archive # 归档
+  - archive # 归档
 
 
 # footer link | 底部链接
@@ -39,6 +44,8 @@ links:  # 友情链接
     url: https://www.chen-yuan-yuan.icu
   - title: "艾谷度"
     url: https://www.agoodu.com
+  - title: "爱即是诗"
+    url: https://www.aigisss.com/blog/
 
 navs: # 导航
   - title: "必应搜索(bing)"
