@@ -440,12 +440,12 @@ article img {
 }
 article code,
 article tt {
-  padding: 0.2em 0.2em;
+  padding: 0.2em 0.3em;
   margin: 0 5px;
   background-color: #fff5f5;
   border-radius: 3px;
   color: #ff502c;
-  /* font-family: Consolas,"Liberation Mono",Menlo,Courier,'Microsoft Yahei',monospace; */
+  border: 1px solid #ebebeb;
 }
 article blockquote {
   margin: 10px 0 10px;
