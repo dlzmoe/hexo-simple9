@@ -74,6 +74,16 @@ npm uninstall hexo-generator-index --save
 npm install hexo-generator-index-pin-top --save
 ```
 
+3. 实时编辑预览插件
+
+这是一个辅助插件，使用者可自由选择是否安装。
+
+每当你 `ctrl + s` 保存代码时，浏览器会自动刷新，而不是手动 `f5` ，并且终端和浏览器会弹出一个短暂的字幕提醒页面已修改。
+
+```shell
+npm install --save hexo-browsersync
+```
+
 ## 使用说明
 
 1.  可依靠[_config.yml]主题配置对博客进行配置

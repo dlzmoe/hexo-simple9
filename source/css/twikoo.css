@@ -20,13 +20,18 @@
 
 .tk-content {
   font-size: 15px;
-  background: rgb(240,244,252);
-  padding: 1px 15px;
+  /* background: rgb(240,244,252); */
+  padding: 1px 0;
   border-radius: 5px;
 }
 
 .tk-content > span > p {
   line-height: 1.6;
+}
+
+.tk-action-link {
+  cursor: pointer;
+  transform: scale(1.1);
 }
 
 
@@ -50,4 +55,8 @@
 
 .tk-extras {
   display: none !important;
+}
+
+.el-textarea__inner {
+  min-height: 130px !important;
 }

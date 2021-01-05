@@ -85,6 +85,16 @@ npm uninstall hexo-generator-index --save
 npm install hexo-generator-index-pin-top --save
 ```
 
+3. Real-time edit preview plugin
+
+This is an auxiliary plug-in, users can freely choose whether to install it.
+
+Whenever you save the code with `ctrl + s`, the browser will automatically refresh instead of manual `f5`, and the terminal and browser will pop up a short subtitle to remind the page has been modified.
+
+```shell
+npm install --save hexo-browsersync
+```
+
 ## Instructions for use
 
 1.  The blog can be configured with the [_config.yml] theme configuration

@@ -445,7 +445,7 @@ article tt {
   background-color: #fff5f5;
   border-radius: 3px;
   color: #ff502c;
-  border: 1px solid #b4b4b4;
+  /* border: 1px solid #b4b4b4; */
 }
 article blockquote {
   margin: 10px 0 10px;
