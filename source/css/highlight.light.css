@@ -76,7 +76,7 @@ figure.highlight .gutter {
 }
 figure.highlight .code {
   padding-left: 15px;
-  background-color:#e2e2e2;
+  background-color:#f1f1f1;
   font-family: Consolas,Monaco,'Andale Mono','Ubuntu Mono',monospace !important;
   color: #333;
 }
