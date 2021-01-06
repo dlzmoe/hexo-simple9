@@ -3,15 +3,20 @@
         <h1 class="message-h1">留言</h1>
         <blockquote class="message-blockquote">
             <p>世界上最遥远的距离就是，我在这里，你却不留下一点点信息。</p>
-            <span style="font-size: 15px;">（可在此处申请友链!）<br>
+            
+        </blockquote>
+<div style="font-size: 15px;margin: 0 auto;width: 96%;">（可在此处申请友链!）<br>
             站点名称：<%- theme.sitename %><br>
             站点链接：<%- theme.sitelink %><br>
             站点头像：<%- theme.siteimg %><br>
-            站点介绍：<%- theme.siteintroduction %></span><br><br>
-        </blockquote>
-
+            站点介绍：<%- theme.siteintroduction %></div>
         <%- partial('partials/comments') %>
     </div>
+    <%if(theme.sidebar&&theme.widgets.length){%>
+        <aside>
+          <%- partial('partials/widgets') %>
+        </aside>
+        <%}%>
 </div>
 
 <style>

@@ -128,7 +128,20 @@ I will see and reply the first time
 1.  `Star` or `Fork` this repository, add a little encouragement to the author
 2.  Ask or discuss in Issues
 
-
 ## Author
 
 [shuxhan](https://github.com/shuxhan)
+
+## Update log
+
+### 2020.01.06
+
+1. Change the main color system from light blue to gray-black. (The color can be adjusted freely, the target file `main.css`)
+2. Adjust the home page catalog to card style.
+3. Adjust the layout details.
+
+### 2020.12.xx
+
+1. Add comment function, adopt twikoo static comment system.
+2. Directory function, keep aside on the right when the page scrolls.
+3. Adapt to the mobile terminal.

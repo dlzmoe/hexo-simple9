@@ -32,10 +32,12 @@ body {
   -webkit-font-smoothing: antialiased;
   font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
-  background-color: #eee;
-  background-image: url('https://shuxhan.gitee.io/img/2020.12/body.png');
+  /* background: #eee; */
+  background: #f4f4f4;
+  /* background-image: url('https://shuxhan.gitee.io/img/2020.12/body.png'); */
   overflow-x: hidden;
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
 }
 
 body.nav-active {
@@ -255,25 +257,34 @@ nav a {
   
 }
 
+.about-wrap > .main{
+    background-color: #fff;
+  box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.05);
+}
+
 .about-wrap,
 .row {
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  /* background-color: #fff;
-  box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.05); */
+
 }
 
 .main {
-  background-color: #f8f8f8;
-  box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.05);
+ 
   flex: 3 1 auto;
   min-height: 320px;
   max-width: 800px;
   width: 65%;
-  /* margin-top: 15px; */
   position: relative;
+}
 
+.list-item { 
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+  background-color: #fff;
+  box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.05);
 }
 
 .main-article {
@@ -325,7 +336,7 @@ nav a {
 }
 
 aside {
-  background-color: #f8f8f8;
+  background-color: #fff;
   box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.05);
   flex: 1 1 auto;
   min-height: 50px;
@@ -365,7 +376,7 @@ aside .widget ul li {
 }
 
 aside .widget ul li a {
-  color: #666;
+  color: #333333;
   font-size: 15px;
 }
 .notice {
@@ -382,7 +393,7 @@ aside .widget ul li a {
 .category-list-item {
   border-bottom: 2px dotted #eee;
   display: block;
-  color: #666;
+  color: #333;
   line-height: 30px;
 }
 .category-list-item:hover {
@@ -413,17 +424,13 @@ aside .widget ul li a:hover {
 }
 
 article {
-  /* background: #fff; */
+  background-color: #fff;
+  box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.05);
   padding: 15px;
   
 }
 .list-item {
-  /* border-bottom: 1px solid #ccc; */
-  /* margin-bottom: 20px; */
-  border-bottom: 2px dotted #eee;
   overflow: hidden;
-  padding-top: 30px;
-  padding-bottom: 30px;
 }
 
 article iframe {
@@ -600,7 +607,6 @@ figure.highlight .gutter {
 }
 .post-info {
   width: 100%;
-  /*display: flex;*/
   justify-content: space-between;
   align-items: center;
   font-size: 14px;
@@ -716,7 +722,7 @@ ul.post-tag-list li.post-tag-list-item a::before {
   word-break: break-word;
 }
 .post-abstract {
-  color: #5c5c5f;
+  color: #444;
 }
 
 article blockquote ol,
@@ -901,10 +907,9 @@ figure.highlight figcaption {
 @media (min-width: 900px) {
   .main {
     margin-right: 15px;
-    padding: 0 20px;
   }
   .container {
-    max-width: 1050px;
+    max-width: 1150px;
   }
   aside {
     display: block;
