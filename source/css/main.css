@@ -35,7 +35,7 @@ body {
   background-color: #eee;
   background-image: url('https://shuxhan.gitee.io/img/2020.12/body.png');
   overflow-x: hidden;
-  font-family: Helvetica Neue',Helvetica,Arial,'Microsoft YaHei',sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 body.nav-active {
