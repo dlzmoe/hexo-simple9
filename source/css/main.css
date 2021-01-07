@@ -384,10 +384,15 @@ aside .widget ul li a {
 }
 .notice {
   padding-left: 10px;
+  padding-bottom: 10px;
 }
 .notice > p {
   margin-bottom: 0;
   line-height: 25px;
+}
+
+.attention {
+  padding-left: 0;
 }
 .categories-list {
   padding-left: 10px;
