@@ -82,13 +82,12 @@
 
   </div>
 
-  <!-- 目录 -->
-  
   
   <aside> 
     <%- partial('partials/widgets') %>
+
+    <!-- 目录 -->
     <%if(page.toc){%>
-      <hr>
       <div id="toc"></div>
       <script>
         $(function() {
@@ -96,13 +95,14 @@
           var startPos = $(elm).offset().top;
           $.event.add(window, "scroll", function() {
             var p = $(window).scrollTop();
-            $(elm).css('margin-left','-5px');
+            $(elm).css('margin-left','0px');
             $(elm).css('position',((p) > startPos) ? 'fixed' : 'static');
             $(elm).css('top',((p) > startPos) ? '20px' : '' )
           })
         })
-
+        
       </script>
+
   </aside>
   <%}%>
 </div>

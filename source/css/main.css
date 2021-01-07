@@ -336,19 +336,22 @@ nav a {
 }
 
 aside {
-  background-color: #fff;
-  box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.05);
+  /* background-color: #fff;
+  box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.05); */
   flex: 1 1 auto;
   min-height: 50px;
   min-width: 270px;
   max-width: 300px;
-  padding: 15px;
+  /* padding: 15px; */
   display: none;
 
 }
 
 aside .widget-wrap {
-  margin-top: 24px;
+  padding: 8px 15px;
+  margin-bottom: 18px;
+  background-color: #fff;
+  box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.05);
 }
 
 aside .widget-title {
@@ -714,7 +717,20 @@ ul.post-tag-list li.post-tag-list-item a::before {
   font-size: 16px;
 }
 .post-content > table  tr {
-  border: 1px solid #000;
+  border: 1px solid #707070;
+}
+.post-content > table{            
+  border-right: 1px solid #707070;
+  border-top: 1px solid #707070;
+
+  /*相邻边框被合并*/
+  border-collapse:collapse;
+}
+.post-content > table th,
+.post-content > table tr td{
+  border-left: 1px solid #707070;
+  border-bottom: 1px solid #707070;
+  padding: 0 10px;
 }
 
 .post-content,

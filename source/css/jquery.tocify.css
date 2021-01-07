@@ -4,18 +4,18 @@
  */
 
 /* The Table of Contents container element */
+
 .tocify {
-    /* width: 250px; */
+    width: 300px;
     max-height: 80%;
     overflow: auto;
     margin-left: -2%;
-    /* position: fixed; */
-    top: 0;
-    /*border: 1px solid #ccc;*/
+    padding: 5px 0;
     webkit-border-radius: 6px;
     moz-border-radius: 6px;
     border-radius: 6px;
-
+    background-color: #fff;
+    box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.05);
 }
 
 /* The Table of Contents is composed of multiple nested unordered lists.  These styles remove the default styling of an unordered list because it is ugly. */
