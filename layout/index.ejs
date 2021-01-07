@@ -23,6 +23,25 @@
             </a>
 
 
+            <section class="post-info">
+              <span class="post-date">发布于
+                <span class="post-date-text"><%- date(post.date, ' YYYY-MM-DD') %></span>
+              </span>
+  
+              <% if (post.categories && post.categories.length&&theme.show_post_category){ %>
+                <span class="post-category">
+                  <%- list_categories(post.categories, { show_count: false, class: 'post-category' , style: 'none' ,
+                    separator: ' ' }) %>
+                </span>
+                <% } %>
+                  <% if (post.tags && post.tags.length&&theme.show_post_tags){ %>
+                    <span class="post-tags">
+                      <%- list_tags(post.tags, { show_count: false, class: 'post-tag' }) %>
+                    </span>
+                    <% } %>
+                    
+            </section>
+
 
             <div class="post-main">
               <div class="post-item">
@@ -35,26 +54,9 @@
                             
                 </section>
     
-                <section class="post-info">
-
-                  <span class="post-date">发布于
-                    <span class="post-date-text"><%- date(post.date, ' YYYY-MM-DD') %></span>
-                  </span>
-      
-
-                  <% if (post.categories && post.categories.length&&theme.show_post_category){ %>
-                    <span class="post-category">
-                      <%- list_categories(post.categories, { show_count: false, class: 'post-category' , style: 'none' ,
-                        separator: ' ' }) %>
-                    </span>
-                    <% } %>
-                      <% if (post.tags && post.tags.length&&theme.show_post_tags){ %>
-                        <span class="post-tags">
-                          <%- list_tags(post.tags, { show_count: false, class: 'post-tag' }) %>
-                        </span>
-                        <% } %>
+              
                         <span class="read-more btn"><a href="<%- url_for(post.path) %>" >阅读更多...</a></span>
-                </section>
+               
               </div>
   
   

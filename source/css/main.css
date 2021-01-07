@@ -114,14 +114,13 @@ a {
   color: #4183c4;
   text-decoration: none;
 }
-
+.attention a:hover,
 .post-content > p > a:hover {
   color: #f60;
   text-decoration: underline;
 }
 
 /*nav*/
-
 .fixed {
   position: fixed;
 }
@@ -280,11 +279,12 @@ nav a {
 }
 
 .list-item { 
-  padding-top: 20px;
+  padding-top: 25px;
   padding-bottom: 20px;
   margin-bottom: 30px;
   background-color: #fff;
   box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.05);
+  position: relative;
 }
 
 .main-article {
@@ -292,14 +292,19 @@ nav a {
 }
 
 .zhiding {
-  color: #ff23f4;
+  position: absolute;
+  top: 10px;
+  left: 2px;
+  color: #ff0000;
   font-weight: bold;
-  border: 2px solid  #ff23f4;
+  border: 2px solid  #ff0f0f;
   padding: 0 2px;
   user-select: none;
   border-radius: 4px;
   display: inline-block;
-  margin-bottom: 3px;
+  line-height: 20px;
+  transform: rotate(-45deg);
+  /* z-index: 9999; */
 }
 
 .main .post-title {
@@ -558,9 +563,7 @@ figure.highlight .gutter {
 .post-tag-list-link {
   color: #00a3af;
 }
-.post-header.with-cover {
-  /* background-color: #4184f3; */
-}
+
 .post-header.with-cover .post-title {
   color: #fff;
   position: absolute;
@@ -572,23 +575,9 @@ figure.highlight .gutter {
   padding-bottom: 10px;
   /*width: 100%;*/
   text-shadow: 0 1px 3px rgba(0, 0, 0, 0.4), 0 0 30px rgba(0, 0, 0, 0.075);
-  /*text-shadow: 1px 1px 5px rgba(50,50,50,0.9);*/
-  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+100&0+0,0.29+100 */
-  background: -moz-linear-gradient(
-    top,
-    rgba(0, 0, 0, 0) 0%,
-    rgba(0, 0, 0, 0.6) 100%
-  ); /* FF3.6-15 */
-  background: -webkit-linear-gradient(
-    top,
-    rgba(0, 0, 0, 0) 0%,
-    rgba(0, 0, 0, 0.6) 100%
-  ); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(
-    to bottom,
-    rgba(0, 0, 0, 0) 0%,
-    rgba(0, 0, 0, 0.6) 100%
-  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  background: -moz-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.6) 100%);
+  background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.6) 100%); 
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%,rgba(0, 0, 0, 0.6) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#4a000000',GradientType=0 ); /* IE6-9 */
 }
 .post-header.with-cover .post-title span {
@@ -605,9 +594,9 @@ figure.highlight .gutter {
   padding-bottom: 0px;
 }
 .post-abstract {
-  padding: 10px 0;
+  padding: 20px 0 10px;
   font-size: 15px;
-  color: #888;
+  color: rgb(65, 65, 65);
   line-height: 26px;
 }
 .post-item {
@@ -619,9 +608,11 @@ figure.highlight .gutter {
   align-items: center;
   font-size: 14px;
   margin-top: 10px;
+  padding-bottom: 7px;
+  border-bottom: 1px solid #e4e2e2;
 }
 .post-info-bottom {
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid #e4e2e2;
   padding-bottom: 10px;
   font-size: 14px;
 }
@@ -671,6 +662,7 @@ figure.highlight .gutter {
 }
 .read-more > a {
   color: #fff;
+  font-size: 14px;
   font-weight: 600;
 }
 .post-main {
@@ -945,9 +937,8 @@ figure.highlight figcaption {
   padding: 37px 15px;
   padding-top: 0;
   margin-top: 30px;
-  /* padding-top: 30px; */
   text-align: center;
-  font-size: 13px;
+  font-size: 14px;
   background-color: #434647;
   color: #e4e7ee;
   border-top: 1px solid #ccc;
