@@ -2,13 +2,13 @@
 
 ## Introduction
 
-A simple style blog theme based on the hexo system, the theme is lighter in color, and the visual effect is soft.
+A simple style blog theme based on the hexo system, the theme is pale in color, and the visual effect is soft. It adopts a double-column card design and is fully functional.
 
 The warehouse will be maintained for a long time. Welcome to leave a message on Issues or come to my blog to communicate.
 
 Supports perfect display on PC and mobile terminals.[查看中文文档](https://github.com/shuxhan/hexo-theme-simple99/blob/main/README-zh.md)
 
-Welcome to use this theme to leave your site on Issues.
+Welcome to use the blog of this topic and leave your site in Issues.
 
 ps：The coupling of this theme is extremely low, and the combination of pages can be freely matched, and interested students can explore in the code.
 
@@ -134,7 +134,13 @@ I will see and reply the first time
 
 ## Update log
 
-### 2020.01.06
+### 2021.01.08
+
+1. Re-integrate part of the format of aside and add a personal profile.
+2. Added visitor statistics.
+3. Added new year pendant.
+
+### 2021.01.06
 
 1. Change the main color system from light blue to gray-black. (The color can be adjusted freely, the target file `main.css`)
 2. Adjust the home page catalog to card style.
