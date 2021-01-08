@@ -11,7 +11,7 @@ menu:
 author: 树寒
 blogname: 树寒的博客  # Logo and website name | logo及网站名称
 notice: <p>吾将上下而求索!<br></p> # This is the announcement section of aside on the right | 公告部分
-email: zsh981109@163.com  # email
+email:   # email
 
 # Site introduction | 站点介绍，用于申请友链
 sitename: 树寒的博客  # 站点名称
@@ -38,51 +38,21 @@ widgets:
   - attention # 通知
 
 links:  # 友情链接
-  - title: "鴻塵的博客"
-    url: https://hwame.top
-  - title: "陈园园的博客"
-    url: https://www.chen-yuan-yuan.icu
-  - title: "爱即是诗"
-    url: https://www.aigisss.com/blog/
-  - title: "noionion"
-    url: https://noionion.top/
-  - title: "Heart-of-engine"
-    url: https://heart-of-engine.github.io/
+  - title: "树寒的博客"
+    url: https://shuxhan.com
 
 # footer link | 底部链接
 navs: # 导航
-  - title: "必应搜索(bing)"
-    url: https://cn.bing.com
   - title: "GitHub"
     url: https://github.com
-  - title: "Gitee"
-    url: https://gitee.com
-  - title: "阿里云"
-    url: https://www.aliyun.com/
-  - title: "腾讯云"
-    url: https://cloud.tencent.com
 
 community:  # 社区论坛
-  - title: "CSDN"
-    url: https://www.csdn.net
   - title: "掘金"
     url: https://juejin.cn
-  - title: "segmentfault思否"
-    url: https://segmentfault.com
-  - title: "博客园"
-    url: https://www.cnblogs.com
-  - title: "V2EX"
-    url: https://www.v2ex.com/
-  - title: "Discord"
-    url: https://discord.com
 
 file:   # 官方文档
-  - title: "React官方中文文档"
-    url: https://react.docschina.org
   - title: "hexo官网"
     url: https://hexo.io
-  - title: "less中文网"
-    url: http://lesscss.cn
 
 # Station construction time | 建站时间
 buildtime: 2020   # year
@@ -101,5 +71,5 @@ codeblock:
 # This topic is built into the twikoo comment system |  本主题内置的是twikoo评论系统
 # Official documents | 官方文档 https://twikoo.js.org/
 # twikoo:
-envID: shuxhan-2gcz5b7m7f845ec3 # 环境变量
+envID:  # 环境变量
 visitors: false  # 是否显示文章阅读量
