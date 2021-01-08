@@ -20,7 +20,7 @@ email: zsh981109@163.com  # email
 # Site introduction | 站点介绍，用于申请友链
 sitename: 树寒的博客  # 站点名称
 sitelink: https://shuxhan.com # 站点链接
-siteimg: https://shuxhan-imgbed.oss-cn-hangzhou.aliyuncs.com/img/20210108164434.jpg # 站点头像
+siteimg: https://shuxhan-imgbed.oss-cn-hangzhou.aliyuncs.com/img/20210108164434.jpg # 站点图片
 siteintroduction: 路漫漫其修远兮，吾将上下而求索！  # 站点介绍
 
 # 网站icon图标
@@ -99,11 +99,11 @@ codeblock:
     result: true
   copyright:
     enable: false
-    content: \n/**\n* 感谢您复制代码，使用代码请注明引用出处\n* kajweb @ https://shuxhan.com\n*/
+    content: \n/**\n* 感谢您复制代码，使用代码请注明引用出处\n* shuxhan @ https://shuxhan.com\n*/
 
 
 # This topic is built into the twikoo comment system |  本主题内置的是twikoo评论系统
 # Official documents | 官方文档 https://twikoo.js.org/
 # twikoo:
-envID: shuxhan-2gcz5b7m7f845ec3 # 环境变量
+envID:  # 环境变量
 visitors: false  # 是否显示文章阅读量
