@@ -6,13 +6,14 @@
     <div class="container">
         <nav>
             
+            
             <div class="logo wave">
                 <a href="<%- url_for() %>" id="logo">
                     <%- theme.blogname %>
                 </a>
             </div>
 
-            
+            <%- partial('partials/happyyear') %>
 
             <div class="nav-toggle-icon" >
                 <div class="material-hamburger">
@@ -73,19 +74,8 @@
                    
                 </ul>
             </div>
+
         </nav>
     </div>
 </div>
-<style>
-    #header{
-        /* background: linear-gradient(to right,blue,green); */
-        /* height: 70px; */
-        width: 100%;
-        /* position: sticky; */
-        /* left: 0; */
-        top: 0;
-        transition-property:top,opacity;
-        transition-duration: 1s ;   
-    }
-</style>
 

@@ -71,10 +71,13 @@
       
       </article>
       <% }) %>
+      <%- partial('partials/pagination') %>
 
   </div>
+  <%if(theme.sidebar&&theme.widgets.length){%>
     <aside>
       <%- partial('partials/widgets') %>
     </aside>
+    <%}%>
 </div>
 
