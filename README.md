@@ -127,6 +127,10 @@ cover:  # Title background image
 
 I will see and reply the first time
 
+## Common lofty mention
+
+[Click to view FAQ](https://github.com/shuxhan/hexo-theme-simple99/issues?q=is%3Aissue+is%3Aopen+label%3A%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98)
+
 ## Participate in contribution
 
 1.  `Star` or `Fork` this repository, add a little encouragement to the author
