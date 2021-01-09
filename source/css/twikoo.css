@@ -65,7 +65,7 @@
   min-height: 130px !important;
 }
 .tk-content {
-  max-height: none;
+  max-height: none !important;
 }
 
 .tk-content img {
