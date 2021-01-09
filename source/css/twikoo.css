@@ -64,6 +64,9 @@
 .el-textarea__inner {
   min-height: 130px !important;
 }
+.tk-content {
+  max-height: none;
+}
 
 .tk-content img {
   max-width: 80% !important;
