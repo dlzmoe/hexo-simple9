@@ -4,7 +4,11 @@
 
 A simple style blog theme based on the hexo system, the theme is pale in color, and the visual effect is soft. It adopts a double-column card design and is fully functional.
 
-The warehouse will be maintained for a long time. Welcome to leave a message on Issues or come to my blog to communicate.
+If you can click a small star before using it, the author would be very grateful; of course, if you find it troublesome, it doesn't matter, welcome to use the theme, and hope to bring you a good experience.
+
+If you think the download speed is too slow, please click [here](https://gitee.com/shuxhan/hexo-theme-simple99), the author will update the warehouse synchronously in gitee.
+
+The warehouse will be maintained for a long time. Welcome to leave a message on Issues or come to my blog to communicate.If you want to use certain functions, but the theme does not have it, you are welcome to submit your ideas in Issues, and the author thinks good suggestions will be adopted.
 
 Supports perfect display on PC and mobile terminals.[查看中文文档](https://github.com/shuxhan/hexo-theme-simple99/blob/main/README-zh.md)
 
@@ -12,11 +16,11 @@ Welcome to use the blog of this topic and leave your site in Issues.
 
 ps：The coupling of this theme is extremely low, and the combination of pages can be freely matched, and interested students can explore in the code.
 
-## Theme use display
+## Theme demo
 
 [shuxhan's blog](https://shuxhan.com)(author)
 
-## Topic page
+## Page
 
 - home
 - archive
@@ -25,11 +29,11 @@ ps：The coupling of this theme is extremely low, and the combination of pages c
 - message
 - about
 
-## Existing function
+## Features
 
-- [x] table of Contents
-- [x] leave a message
-- [x] Make
+It integrates the functions that a blog should have, and can be explored in use, including but not limited to: comments, directories, topping, visitor statistics, classification tags, etc.
+
+You will find a lot of different things, some content I did not put in the configuration, but it does not affect your normal use, but as a surprise waiting for you to discover.
 
 ## Installation tutorial
 

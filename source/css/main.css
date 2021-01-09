@@ -975,6 +975,62 @@ figure.highlight figcaption {
   margin: 0;
 }
 
+.links-wrap-wrap {
+  height: auto;
+  width: 100%;
+}
+.links-wrap {
+  width: 80%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.link-wrap {
+  float: left;
+  width: 50%;
+}
+.link-title {
+  text-align: left;
+  font-size: 20px;
+  padding-top: 0;
+}
+.link-item-wrap {
+  padding: 5px;
+  overflow: hidden;
+}
+.link-item {
+  float: left;
+  list-style: none;
+  padding-right: 30px;
+  font-weight: 500;
+  line-height: 2.6;
+  
+}
+.link-item > a{
+  color: #e4e7ee;
+}
+.link-item > a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+.copyright-wrap {
+  display: block;
+  margin-top: 40px;
+  padding-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  .links-wrap {
+    width: 100%;
+  }
+}
+@media (max-width: 538px) {
+  .link-item {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
 /*keyboard support*/
 kbd {
   /* font-family: monospace, monospace; */
