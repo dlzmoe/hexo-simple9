@@ -139,23 +139,3 @@ I will see and reply the first time
 ## Author
 
 [shuxhan](https://github.com/shuxhan)
-
-## Update log
-
-### 2021.01.08
-
-1. Re-integrate part of the format of aside and add a personal profile.
-2. Added visitor statistics.
-3. Added new year pendant.
-
-### 2021.01.06
-
-1. Change the main color system from light blue to gray-black. (The color can be adjusted freely, the target file `main.css`)
-2. Adjust the home page catalog to card style.
-3. Adjust the layout details.
-
-### 2020.12.xx
-
-1. Add comment function, adopt twikoo static comment system.
-2. Directory function, keep aside on the right when the page scrolls.
-3. Adapt to the mobile terminal.
