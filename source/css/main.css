@@ -45,6 +45,10 @@ small {
   display: none;
 }
 
+.video {
+  min-height: 300px;
+}
+
 h1,
 h2,
 h3,
@@ -633,11 +637,6 @@ figure.highlight .gutter {
 .post-date {
   color: #5c5959;
 }
-.post-updated {
-  font-size: 14px;
-  color: #5c5959;
-  margin-left: 10px;
-}
 
 .post-category {
   margin-left: 10px;
@@ -1177,7 +1176,4 @@ red {
 green {
   color: #0ca00c;
 }
-
-
-
 

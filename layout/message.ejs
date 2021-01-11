@@ -1,43 +1,44 @@
 <div class="about-wrap">
-    <div class="main">
-        <h1 class="message-h1">留言</h1>
-        <blockquote class="message-blockquote">
-            <p>世界上最遥远的距离就是，我在这里，你却不留下一点点信息。</p>
+	<div class="main">
+		<h1 class="message-h1">留言</h1>
+		<blockquote class="message-blockquote">
+			<p>世界上最遥远的距离就是，我在这里，你却不留下一点点信息。</p>
 
-        </blockquote>
-        <div style="font-size: 15px;margin: 0 auto;width: 96%;">（可在此处申请友链!）<br>
-            站点名称：<%- theme.sitename %><br>
-                站点链接：<%- theme.sitelink %><br>
-                    站点头像：<%- theme.siteimg %><br>
-                        站点介绍：<%- theme.siteintroduction %>
-        </div>
-        <%- partial('partials/comments') %>
-    </div>
-    <%if(theme.sidebar&&theme.widgets.length){%>
-        <aside>
-            <%- partial('partials/widgets') %>
-        </aside>
-        <%}%>
+		</blockquote>
+		<div style="font-size: 15px;margin: 0 auto;width: 96%;">（可在此处申请友链!）<br>
+			站点名称：<%- theme.sitename %><br>
+			站点链接：<%- theme.sitelink %><br>
+			站点头像：<%- theme.siteimg %><br>
+			站点介绍：<%- theme.siteintroduction %>
+		</div>
+		
+		<%- partial('partials/comments') %>
+	</div>
+	<%if(theme.sidebar&&theme.widgets.length){%>
+		<aside>
+			<%- partial('partials/widgets') %>
+		</aside>
+	<%}%>
 </div>
 
 <style>
-    .message-h1 {
-        padding-bottom: 0.3em;
-        font-size: 20px;
-        line-height: 1.4;
-        padding-left: 10px;
-    }
+	.message-h1 {
+		padding-bottom: 0.3em;
+		font-size: 20px;
+		line-height: 1.4;
+		padding-left: 10px;
+	}
 
-    .message-blockquote {
-        margin: 30px auto;
-        border: 0;
-        border-left: 5px solid #a7a7a7;
-        background: #f0f0f0bd;
-        padding-left: 10px;
-        width: 96%;
-    }
+	.message-blockquote {
+		margin: 30px auto;
+		border: 0;
+		border-left: 5px solid #a7a7a7;
+		background: #f0f0f0bd;
+		padding-left: 10px;
+		width: 96%;
+	}
 
-    .message-blockquote>p {
-        line-height: 40px;
-    }
+	.message-blockquote>p {
+		line-height: 40px;
+	}
 </style>
