@@ -18,7 +18,7 @@ section.post-content .highlight pre,section.post-content pre {
     border: 0;
     border-radius: 3px;
     padding-left: 0;
-    /* font-family: "Source Code Pro", Consolas, Monaco, Menlo, Consolas, monospace; */
+    font-family: "Source Code Pro", Consolas, Monaco, Menlo, Consolas, monospace;
 }
 
 section.post-content pre {

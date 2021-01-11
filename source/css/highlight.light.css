@@ -38,16 +38,15 @@
   color: color-link;
 }
 figure.highlight {
-  /* background: #eee; */
+  background: #f8f8f8;
   border-radius: 5px;
-  /* border: 1px solid #eee; */
+  border: solid 1px #dce6f0;
   line-height: 1.6;
   overflow: auto;
   position: relative;
   font-size: 0.9em;
   margin: 15px -15px;
   padding: 0 0;
-  font-family: Menlo,Monaco,Consolas,Courier New,monospace;
 }
 
 figure.highlight figcaption {
@@ -76,9 +75,9 @@ figure.highlight .gutter {
 }
 figure.highlight .code {
   padding-left: 15px;
-  background-color:#f1f1f1;
-  font-family: Consolas,Monaco,'Andale Mono','Ubuntu Mono',monospace !important;
+  /* background-color:#f8f8f8; */
   color: #333;
+  /* border: solid 1px #dce6f0; */
 }
 figure.highlight .line {
   height: 20px;
