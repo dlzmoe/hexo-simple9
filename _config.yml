@@ -67,5 +67,5 @@ codeblock:
 # This topic is built into the twikoo comment system |  本主题内置的是twikoo评论系统
 # Official documents | 官方文档 https://twikoo.js.org/
 # twikoo:
-envID: shuxhan-2gcz5b7m7f845ec3 # 环境变量
+envID:  # 环境变量
 visitors: false  # 是否显示文章阅读量
