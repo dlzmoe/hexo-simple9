@@ -5,7 +5,7 @@
       <%if(page.cover){%>
         <header class="post-header with-cover" style="background-image:url('<%- page.cover%>')">
       <%}else{%>
-        <header class="post-header">
+        <header class="post-header no-cover">
       <%}%>
         </header>
 
@@ -51,7 +51,6 @@
       </section>
 
     </article>
-
     
     <% if (page.total> 1){ %>
       <div class="pagination">

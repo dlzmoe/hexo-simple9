@@ -1,68 +1,10 @@
 <footer class="footer">
-  <div class="links-wrap-wrap">
-    <div class="links-wrap">
-    
-      <% if (theme.navs.length){ %>
-        <section class="link-wrap">
-          <h3 class="link-title">导航</h3>
-          <div>
-            <ul class="link-item-wrap">
-                <% for (var i in theme.navs){ %>
-                <li class="link-item">
-                    <a href="<%- theme.navs[i].url %>" title="<%- theme.navs[i].intro %>">
-                        <%= theme.navs[i].title %>
-                    </a>
-                </li>
-                <% } %>
-            </ul>
-          </div>
-        </section>
-      <% } %>
 
-
-      <% if (theme.community.length){ %>
-        <section class="link-wrap">
-          <h3 class="link-title">社区论坛</h3>
-          <div>
-            <ul class="link-item-wrap">
-                <% for (var i in theme.community){ %>
-                <li class="link-item">
-                    <a href="<%- theme.community[i].url %>" title="<%- theme.community[i].intro %>">
-                        <%= theme.community[i].title %>
-                    </a>
-                </li>
-                <% } %>
-            </ul>
-          </div>
-        </section>
-      <% } %>
-
-
-      <% if (theme.file.length){ %>
-        <section class="link-wrap">
-          <h3 class="link-title">文档</h3>
-          <div>
-            <ul class="link-item-wrap">
-                <% for (var i in theme.file){ %>
-                <li class="link-item">
-                    <a href="<%- theme.file[i].url %>" title="<%- theme.file[i].intro %>">
-                        <%= theme.file[i].title %>
-                    </a>
-                </li>
-                <% } %>
-            </ul>
-          </div>
-        </section>
-      <% } %>
-
-    </div>
-  </div>
-  
     <div class="copyright-wrap">
       <span>&copy; <%- theme.buildtime %>-<%= date(new Date(), 'YYYY') %> <%- theme.author %></span>
       <span id="timeDate">载入天数...</span>
-      
     </div>
+    
     <span id="busuanzi_container_site_pv">
       本站总访问量<span id="busuanzi_value_site_pv"></span>次
     </span>

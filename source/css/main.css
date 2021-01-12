@@ -32,9 +32,9 @@ body {
   -webkit-font-smoothing: antialiased;
   font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
-  background: #f4f4f4;
+  /* background: #f4f4f4; */
+  background: #fff;
   overflow-x: hidden;
-  
 
 }
 
@@ -254,7 +254,8 @@ nav a {
 
 .about-wrap > .main{
   background-color: #fff;
-  box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.05);
+  /* box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.05); */
+  box-shadow: 0 6px 30px -10px rgba(0, 0, 0, 0.1);
 }
 
 .about-wrap,
@@ -279,8 +280,9 @@ nav a {
   padding-bottom: 20px;
   margin-bottom: 30px;
   background-color: #fff;
-  box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.05);
+  /* box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.05); */
   position: relative;
+  box-shadow: 0 6px 30px -10px rgba(0, 0, 0, 0.1);
 }
 
 .main-article {
@@ -348,7 +350,8 @@ aside .widget-wrap {
   padding: 8px 15px;
   margin-bottom: 18px;
   background-color: #fff;
-  box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 6px 30px -10px rgba(0, 0, 0, 0.1);
+  /* box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.05); */
 }
 
 aside .widget-title {
@@ -463,7 +466,8 @@ aside .widget ul li a:hover {
 
 article {
   background-color: #fff;
-  box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.05);
+  /* box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.05); */
+  box-shadow: 0 6px 30px -10px rgba(0, 0, 0, 0.1);
   padding: 15px;
   
 }
@@ -536,6 +540,9 @@ figure.highlight .gutter {
   position: relative;
   padding-bottom: 45%;
   display: block;
+}
+.no-cover {
+  display: inline;
 }
 .breadcrumb {
   width: 94%;
@@ -951,52 +958,13 @@ figure.highlight figcaption {
   margin-top: 30px;
   text-align: center;
   font-size: 14px;
-  background-color: #434647;
-  color: #e4e7ee;
-  border-top: 1px solid #ccc;
   overflow: hidden;
+  color: rgb(134, 134, 134);
 }
 .footer p {
   margin: 0;
 }
 
-.links-wrap-wrap {
-  height: auto;
-  width: 100%;
-}
-.links-wrap {
-  width: 80%;
-  margin: 0 auto;
-  overflow: hidden;
-}
-.link-wrap {
-  float: left;
-  width: 50%;
-}
-.link-title {
-  text-align: left;
-  font-size: 20px;
-  padding-top: 0;
-}
-.link-item-wrap {
-  padding: 5px;
-  overflow: hidden;
-}
-.link-item {
-  float: left;
-  list-style: none;
-  padding-right: 30px;
-  font-weight: 500;
-  line-height: 2.6;
-  
-}
-.link-item > a{
-  color: #e4e7ee;
-}
-.link-item > a:hover {
-  color: #fff;
-  text-decoration: underline;
-}
 .copyright-wrap {
   display: block;
   margin-top: 40px;
