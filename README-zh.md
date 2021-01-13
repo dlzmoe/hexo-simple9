@@ -76,13 +76,18 @@ hexo clean && hexo g -d
 npm install --save hexo-generator-search
 ```
 
-2. 置顶功能插件
+2. 博客总字数统计
+```shell
+npm i --save hexo-wordcount
+```
+
+3. 置顶功能插件
 ```shell
 npm uninstall hexo-generator-index --save
 npm install hexo-generator-index-pin-top --save
 ```
 
-3. 实时编辑预览插件
+4. 实时编辑预览插件
 
 这是一个辅助插件，使用者可自由选择是否安装。
 

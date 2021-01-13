@@ -83,13 +83,18 @@ The following are the plug-ins recommended for this theme, which can be download
 npm install --save hexo-generator-search
 ```
 
-2. Top function plugin
+2. Total word count of blog
+```shell
+npm i --save hexo-wordcount
+```
+
+3. Top function plugin
 ```shell
 npm uninstall hexo-generator-index --save
 npm install hexo-generator-index-pin-top --save
 ```
 
-3. Real-time edit preview plugin
+4. Real-time edit preview plugin
 
 This is an auxiliary plug-in, users can freely choose whether to install it.
 

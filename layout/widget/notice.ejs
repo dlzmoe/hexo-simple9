@@ -15,8 +15,69 @@
                 <!-- csdn -->
                 <span><a target="_blank" href="<%- theme.csdn %>"><img src="https://shuxhan-imgbed.oss-cn-hangzhou.aliyuncs.com/img/20210108172932.ico" alt="CSDN"></a></span>
             </p>
-            
+
+            <ul class="statistics">
+                <li>
+                    <span>文章</span>
+                    <a href="./archives"><%- site.posts.length %></a>
+                </li>
+                <li>
+                    <span>字数</span>
+                    <a><%= totalcount(site) %></a>
+                </li>
+                <li>
+                    <span>访客</span>
+                    <a id="busuanzi_value_site_uv"></a>
+                </li>
+                
+                
+            </ul>
+
+            <div id="follow">
+                <a target="_blank" href="https://github.com/shuxhan">关注</a>
+            </div>
         </div>
     </div>
 </section>
 
+<style>
+    .statistics {
+        overflow: hidden;
+        display: flex;
+        justify-content: space-between;
+        padding: 0 30px;
+    }
+    .statistics > li{
+        float: left;
+        text-align: center; 
+        font-size: 17px !important;
+    }
+    .statistics > li > span {
+        display: block;
+        color: #8a9aa9;
+       
+    }
+    .statistics > li > a {
+        color: #000;
+        font-size: 16px !important;
+    }
+    #follow {
+        margin-top: 10px;
+        text-align: center;
+        
+        font-size: 17px;
+    }
+    #follow > a {
+        display: block;
+        width: 100%;
+        height: 100%;
+        padding: 5px;
+        color: #fff;
+        font-weight: bold;
+        background: #49b1f5;
+        border-radius: 8px;
+    }
+    #follow > a:hover {
+        background: #369fe6;
+    }
+</style>

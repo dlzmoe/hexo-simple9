@@ -32,10 +32,8 @@ body {
   -webkit-font-smoothing: antialiased;
   font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
-  /* background: #f4f4f4; */
   background: #fff;
   overflow-x: hidden;
-
 }
 
 body.nav-active {
@@ -386,13 +384,14 @@ aside .widget ul li a {
   padding-left: 10px;
   padding-bottom: 10px;
   position: relative;
+  /* font-size: 15px; */
 }
 .notice .notice-img {
-  width: 70px;
+  width: 65px;
   border: 1px solid #ccc;
   border-radius: 50%;
   position: absolute;
-  right: 5px;
+  right: 15px;
 }
 .notice .notice-img:hover {
   border: 1px solid #ccc;
