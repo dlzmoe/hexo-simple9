@@ -14,13 +14,9 @@ github: https://github.com/shuxhan
 juejin: https://juejin.cn/user/3210229685698430/posts
 zhihu: https://www.zhihu.com
 csdn: https://blog.csdn.net/ZSH_jerry
-email: zsh981109@163.com  # email
+email: zsh981109@163.com  
+authorimg: https://shuxhan-imgbed.oss-cn-hangzhou.aliyuncs.com/img/20210108164434.jpg # 站点图片
 
-# Site introduction | 站点介绍，用于申请友链
-sitename: 树寒的博客  # 站点名称
-sitelink: https://www.shuxhan.com # 站点链接
-siteimg: https://shuxhan-imgbed.oss-cn-hangzhou.aliyuncs.com/img/20210108164434.jpg # 站点图片
-siteintroduction: 路漫漫其修远兮，吾将上下而求索！  # 站点介绍
 
 # 网站icon图标
 favicon: https://shuxhan-imgbed.oss-cn-hangzhou.aliyuncs.com/img/20210108143023.png
