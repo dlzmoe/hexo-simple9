@@ -18,7 +18,7 @@ ps：The coupling of this theme is extremely low, and the combination of pages c
 
 ## Theme demo
 
-[shuxhan's blog](https://shuxhan.com)(author)
+[shuxhan's blog](https://simple99.cn)(author)
 
 ## Page
 

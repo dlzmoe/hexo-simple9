@@ -18,7 +18,7 @@ email: zsh981109@163.com  # email
 
 # Site introduction | 站点介绍，用于申请友链
 sitename: 树寒的博客  # 站点名称
-sitelink: https://shuxhan.com # 站点链接
+sitelink: https://www.shuxhan.com # 站点链接
 siteimg: https://shuxhan-imgbed.oss-cn-hangzhou.aliyuncs.com/img/20210108164434.jpg # 站点图片
 siteintroduction: 路漫漫其修远兮，吾将上下而求索！  # 站点介绍
 
@@ -49,6 +49,8 @@ links:  # 友情链接
     url: https://www.aigisss.com/blog/
   - title: "noionion"
     url: https://noionion.top/
+  - title: "ISLU"
+    url: https://islu.cn
 
 
 # Station construction time | 建站时间
@@ -67,5 +69,5 @@ codeblock:
 # This topic is built into the twikoo comment system |  本主题内置的是twikoo评论系统
 # Official documents | 官方文档 https://twikoo.js.org/
 # twikoo:
-envID:  # 环境变量
+envID: shuxhan-2gcz5b7m7f845ec3 # 环境变量
 visitors: false  # 是否显示文章阅读量
