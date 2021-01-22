@@ -37,16 +37,8 @@ widgets:
   - attention # 通知
 
 links:  # 友情链接
-  - title: "鴻塵的博客"
-    url: https://hwame.top
-  - title: "陈园园的博客"
-    url: https://www.chen-yuan-yuan.icu
-  - title: "爱即是诗"
-    url: https://www.aigisss.com/blog/
-  - title: "noionion"
-    url: https://noionion.top/
-  - title: "ISLU"
-    url: https://islu.cn
+  - title: "树寒的博客"
+    url: https://www.shuxhan.com
 
 
 # Station construction time | 建站时间
@@ -65,5 +57,5 @@ codeblock:
 # This topic is built into the twikoo comment system |  本主题内置的是twikoo评论系统
 # Official documents | 官方文档 https://twikoo.js.org/
 # twikoo:
-envID: shuxhan-2gcz5b7m7f845ec3 # 环境变量
+envID:  # 环境变量
 visitors: false  # 是否显示文章阅读量
