@@ -1,6 +1,6 @@
 # hexo-theme-simple99
 
-ps：如果 github 仓库下载太慢，可以使用此链接 [安装包](https://pan.shuxhan.com/down.php/b89d50de8ca617803425ff114c123601.zip)。
+ps：如果 github 仓库下载太慢，可以使用此链接 [安装包](https://pan.shuxhan.com/down.php/2f5d3d4a36f3bf335cbd5d67e0e7de61.zip)。
 
 ## 介绍
 
