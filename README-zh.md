@@ -1,5 +1,7 @@
 # hexo-theme-simple99
 
+ps：如果 github 仓库下载太慢，可以使用此链接 [安装包](https://pan.shuxhan.com/down.php/b89d50de8ca617803425ff114c123601.zip)。
+
 ## 介绍
 
 基于hexo系统的一款简洁风博客主题，主题色调偏淡色，视觉效果柔和，采用双栏卡片式设计，功能齐全。
