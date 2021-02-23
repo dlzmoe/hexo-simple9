@@ -1,7 +1,5 @@
 # hexo-theme-simple99
 
-If the github repository download is too slow, you can use this link [install](https://pan.shuxhan.com/down.php/2f5d3d4a36f3bf335cbd5d67e0e7de61.zip).
-
 ## Introduction
 
 A simple style blog theme based on the hexo system, the theme is pale in color, and the visual effect is soft. It adopts a double-column card design and is fully functional.
@@ -20,7 +18,7 @@ ps：The coupling of this theme is extremely low, and the combination of pages c
 
 ## Theme demo
 
-[shuxhan's blog](https://simple99.cn)(author)
+[shuxhan's blog](https://shuxhan.com)(author)
 
 ## Page
 
@@ -145,4 +143,4 @@ I will see and reply the first time
 
 ## Author
 
-[shuxhan](https://www.shuxhan.com)
+[shuxhan](https://github.com/shuxhan)

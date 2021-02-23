@@ -14,9 +14,13 @@ github: https://github.com/shuxhan
 juejin: https://juejin.cn/user/3210229685698430/posts
 zhihu: https://www.zhihu.com
 csdn: https://blog.csdn.net/ZSH_jerry
-email: zsh981109@163.com  
-authorimg: https://shuxhan-imgbed.oss-cn-hangzhou.aliyuncs.com/img/20210108164434.jpg # 站点图片
+email: shuxhan@163.com  # email
 
+# Site introduction | 站点介绍，用于申请友链
+sitename: 求索日记  # 站点名称
+sitelink: https://www.shuxhan.com # 站点链接
+siteimg: https://shuxhan-imgbed.oss-cn-hangzhou.aliyuncs.com/img/20210108164434.jpg # 站点图片
+siteintroduction: 路漫漫其修远兮，吾将上下而求索！  # 站点介绍
 
 # 网站icon图标
 favicon: https://shuxhan-imgbed.oss-cn-hangzhou.aliyuncs.com/img/20210108143023.png
@@ -37,8 +41,16 @@ widgets:
   - attention # 通知
 
 links:  # 友情链接
-  - title: "树寒的博客"
-    url: https://www.shuxhan.com
+  - title: "鴻塵的博客"
+    url: https://hwame.top
+  - title: "陈园园的博客"
+    url: https://www.chen-yuan-yuan.icu
+  - title: "爱即是诗"
+    url: https://www.aigisss.com/blog/
+  - title: "noionion"
+    url: https://noionion.top/
+  - title: "ISLU"
+    url: https://islu.cn
 
 
 # Station construction time | 建站时间
@@ -57,5 +69,5 @@ codeblock:
 # This topic is built into the twikoo comment system |  本主题内置的是twikoo评论系统
 # Official documents | 官方文档 https://twikoo.js.org/
 # twikoo:
-envID:  # 环境变量
+envID: shuxhan-2gcz5b7m7f845ec3 # 环境变量
 visitors: false  # 是否显示文章阅读量
