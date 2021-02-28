@@ -1,19 +1,12 @@
 <div class="about-wrap">
-	<div class="main">
-		<h1 class="message-h1">留言</h1>
-		<blockquote class="message-blockquote">
-			<p>世界上最遥远的距离就是，我在这里，你却不留下一点点信息。</p>
-
-		</blockquote>
-		<div style="font-size: 15px;margin: 0 auto;width: 96%;">（可在此处申请友链!）<br>
-			站点名称：<%- theme.sitename %><br>
-			站点链接：<%- theme.sitelink %><br>
-			站点头像：<%- theme.siteimg %><br>
-			站点介绍：<%- theme.siteintroduction %>
-		</div>
-		
+	<article class="main">
+		<h2>
+		  <%-page.title%>
+		</h2>
+		<%-page.content%>
 		<%- partial('partials/comments') %>
-	</div>
+	  </article>
+	
 	<%if(theme.sidebar&&theme.widgets.length){%>
 		<aside>
 			<%- partial('partials/widgets') %>

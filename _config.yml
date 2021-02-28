@@ -7,20 +7,15 @@ menu:
   search: /search
 
 # Personal profile | 个人简介
-author: 树寒
-blogname: 树寒的博客  # Logo and website name | logo及网站名称
-notice: <p>路漫漫其修远兮，<br>吾将上下而求索!<br></p> # This is the announcement section of aside on the right | 公告部分
+author: shuxhan
+blogname: 求索日记  # Logo and website name | logo及网站名称
+notice: <p>一个前端程序员的<br>编程笔记和生活记录！</p> # This is the announcement section of aside on the right | 公告部分
 github: https://github.com/shuxhan
 juejin: https://juejin.cn/user/3210229685698430/posts
 zhihu: https://www.zhihu.com
 csdn: https://blog.csdn.net/ZSH_jerry
 email: shuxhan@163.com  # email
-
-# Site introduction | 站点介绍，用于申请友链
-sitename: 求索日记  # 站点名称
-sitelink: https://www.shuxhan.com # 站点链接
-siteimg: https://shuxhan-imgbed.oss-cn-hangzhou.aliyuncs.com/img/20210108164434.jpg # 站点图片
-siteintroduction: 路漫漫其修远兮，吾将上下而求索！  # 站点介绍
+authorimg: https://img.shuxhan.com/202102/author.jpg # 个人介绍头像
 
 # 网站icon图标
 favicon: https://shuxhan-imgbed.oss-cn-hangzhou.aliyuncs.com/img/20210108143023.png
@@ -41,17 +36,8 @@ widgets:
   - attention # 通知
 
 links:  # 友情链接
-  - title: "鴻塵的博客"
-    url: https://hwame.top
-  - title: "陈园园的博客"
-    url: https://www.chen-yuan-yuan.icu
-  - title: "爱即是诗"
-    url: https://www.aigisss.com/blog/
-  - title: "noionion"
-    url: https://noionion.top/
-  - title: "ISLU"
-    url: https://islu.cn
-
+  - title: "求索日记"
+    url: https://www.shuxhan.com
 
 # Station construction time | 建站时间
 buildtime: 2020   # year

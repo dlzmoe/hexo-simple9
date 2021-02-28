@@ -199,8 +199,12 @@ nav {
   margin: 0;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  /* justify-content: center; */
+  
   height: 100%;
+}
+.menu-wrapper ul.menus li{
+  line-height: 50px;
 }
 
 .logo {
