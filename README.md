@@ -2,6 +2,8 @@
 
 ## Introduction
 
+English document | [中文](https://github.com/shuxhan/hexo-theme-simple99/blob/main/README-zh.md)
+
 A simple style blog theme based on the hexo system, the theme is pale in color, and the visual effect is soft. It adopts a double-column card design and is fully functional.
 
 If you can click a small star before using it, the author would be very grateful; of course, if you find it troublesome, it doesn't matter, welcome to use the theme, and hope to bring you a good experience.
@@ -10,7 +12,7 @@ If you think the download speed is too slow, please click [here](https://gitee.c
 
 The warehouse will be maintained for a long time. Welcome to leave a message on Issues or come to my blog to communicate.If you want to use certain functions, but the theme does not have it, you are welcome to submit your ideas in Issues, and the author thinks good suggestions will be adopted.
 
-Supports perfect display on PC and mobile terminals.[查看中文文档](https://github.com/shuxhan/hexo-theme-simple99/blob/main/README-zh.md)
+Supports perfect display on PC and mobile terminals.
 
 Welcome to use the blog of this topic and leave your site in Issues.
 
@@ -18,7 +20,7 @@ ps：The coupling of this theme is extremely low, and the combination of pages c
 
 ## Theme demo
 
-[shuxhan's blog](https://shuxhan.com)(author)
+[shuxhan's blog](https://shuxhan.com)
 
 ## Page
 

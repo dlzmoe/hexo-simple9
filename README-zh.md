@@ -2,6 +2,8 @@
 
 ## 介绍
 
+English | [中文](https://github.com/shuxhan/hexo-theme-simple99/blob/main/README.md)
+
 基于hexo系统的一款简洁风博客主题，主题色调偏淡色，视觉效果柔和，采用双栏卡片式设计，功能齐全。
 
 如果你能在使用前点一个小小的 star ，作者将万分感谢；当然如果你觉得麻烦，也没有关系，欢迎使用主题，希望能给您带来不错的体验。
@@ -10,7 +12,7 @@
 
 仓库将会长期维护，欢迎在 Issues 留言遇到的问题，或者来我的博客进行交流。如果你想使用某些功能，而主题不具备，欢迎在 Issues 提出你的想法，作者觉得不错的建议都将会采纳。
 
-支持pc端、移动端完美显示。[English document](https://github.com/shuxhan/hexo-theme-simple99/blob/main/README.md)
+支持pc端、移动端显示。
 
 欢迎使用本主题的博客在 Issues 留下你的站点。
 
@@ -18,7 +20,7 @@ ps：本主题耦合性极低，可自由搭配页面的组合，感兴趣的同
 
 ## 主题使用展示
 
-[树寒的博客](https://shuxhan.com)(作者)
+[主题演示](https://simple.cn)
 
 ## 主题页面
 
