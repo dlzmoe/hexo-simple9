@@ -129,7 +129,7 @@ cover:  # Title background image
 4. If you have other questions
 
 - [x] You can leave a message in Issues
-- [x] Send an email to zsh981109@163.com
+- [x] Send an email to shuxhan@163.com
 - [x] [Message](https://blog.shuxhan.com/message) in the message area of my blog,
 
 I will see and reply the first time
