@@ -20,7 +20,7 @@ ps：The coupling of this theme is extremely low, and the combination of pages c
 
 ## Theme demo
 
-[shuxhan's blog](https://shuxhan.com)
+[shuxhan's blog](https://simple99.cn)
 
 ## Page
 
@@ -130,7 +130,7 @@ cover:  # Title background image
 
 - [x] You can leave a message in Issues
 - [x] Send an email to zsh981109@163.com
-- [x] [Message](https://shuxhan.com/message) in the message area of my blog,
+- [x] [Message](https://blog.shuxhan.com/message) in the message area of my blog,
 
 I will see and reply the first time
 
@@ -145,4 +145,4 @@ I will see and reply the first time
 
 ## Author
 
-[shuxhan](https://github.com/shuxhan)
+[shuxhan](https://www.shuxhan.com)
