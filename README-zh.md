@@ -2,7 +2,7 @@
 
 ## 介绍
 
-English | [中文](https://github.com/shuxhan/hexo-theme-simple99/blob/main/README.md)
+[English](https://github.com/shuxhan/hexo-theme-simple99/blob/main/README.md) | 中文
 
 基于hexo系统的一款简洁风博客主题，主题色调偏淡色，视觉效果柔和，采用双栏卡片式设计，功能齐全。
 
@@ -119,8 +119,8 @@ cover:  # 标题背景图片
 ```
 4. 如有其他问题，
 - [x] 可在 Issues 留言，
-- [x] 给 zsh981109@163.com 发一封电子邮件，
-- [x] 在我的博客留言区进行[留言](https://shuxhan.com/message)，
+- [x] 给 shuxhan@163.com 发一封电子邮件，
+- [x] 在我的博客留言区进行[留言](https://blog.shuxhan.com/message)，
    
 我都会在第一时间看到并回复。
 
@@ -135,4 +135,4 @@ cover:  # 标题背景图片
 
 ## 作者
 
-[shuxhan](https://github.com/shuxhan)
+[shuxhan](https://www.shuxhan.com)
