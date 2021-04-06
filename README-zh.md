@@ -18,6 +18,11 @@
 
 ps：本主题耦合性极低，可自由搭配页面的组合，感兴趣的同学可以在代码里面尽情摸索。
 
+## 仓库
+
+github 仓库：[https://github.com/shuxhan/hexo-theme-simple99](https://github.com/shuxhan/hexo-theme-simple99)
+gitee 仓库：[https://gitee.com/shuxhan/hexo-theme-simple99](https://gitee.com/shuxhan/hexo-theme-simple99)
+
 ## 主题使用展示
 
 [主题演示](https://simple.cn)
