@@ -8,6 +8,8 @@ A simple style blog theme based on the hexo system, the theme is pale in color, 
 
 If you can click a small star before using it, the author would be very grateful; of course, if you find it troublesome, it doesn't matter, welcome to use the theme, and hope to bring you a good experience.
 
+If you think the download speed is too slow, please click [here](https://gitee.com/shuxhan/hexo-theme-simple99), the author will update the warehouse synchronously in gitee.
+
 The warehouse will be maintained for a long time. Welcome to leave a message on Issues or come to my blog to communicate.If you want to use certain functions, but the theme does not have it, you are welcome to submit your ideas in Issues, and the author thinks good suggestions will be adopted.
 
 Supports perfect display on PC and mobile terminals.
@@ -16,15 +18,9 @@ Welcome to use the blog of this topic and leave your site in Issues.
 
 ps：The coupling of this theme is extremely low, and the combination of pages can be freely matched, and interested students can explore in the code.
 
-## Repo
-
-github: [https://github.com/shuxhan/hexo-theme-simple99](https://github.com/shuxhan/hexo-theme-simple99)
-
-gitee: [https://gitee.com/shuxhan/hexo-theme-simple99](https://gitee.com/shuxhan/hexo-theme-simple99)
-
 ## Theme demo
 
-[demo](https://simple99.cn)
+[shuxhan's blog](https://shuxhan.com)
 
 ## Page
 
@@ -133,8 +129,8 @@ cover:  # Title background image
 4. If you have other questions
 
 - [x] You can leave a message in Issues
-- [x] Send an email to shuxhan@163.com
-- [x] [Message](https://shuxhan.com/comments) in the message area of my blog,
+- [x] Send an email to zsh981109@163.com
+- [x] [Message](https://shuxhan.com/message) in the message area of my blog,
 
 I will see and reply the first time
 
@@ -149,4 +145,4 @@ I will see and reply the first time
 
 ## Author
 
-[shuxhan](https://shuxhan.com)
+[shuxhan](https://github.com/shuxhan)

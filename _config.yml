@@ -33,7 +33,6 @@ widgets:
   - recent_posts  # 最近文章
   - archive # 归档
   - links # 友情链接
-  - attention # 通知
 
 links:  # 友情链接
   - title: "求索日记"
