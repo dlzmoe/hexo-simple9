@@ -2,7 +2,7 @@
 
 ## Introduction
 
-English document | [中文](https://github.com/shuxhan/hexo-theme-simple99/blob/main/README-zh.md)
+English document | [中文简体](https://github.com/shuxhan/hexo-theme-simple99/blob/main/README-zh.md)
 
 A simple style blog theme based on the hexo system, the theme is pale in color, and the visual effect is soft. It adopts a double-column card design and is fully functional.
 
