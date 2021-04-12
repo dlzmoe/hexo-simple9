@@ -2,7 +2,7 @@
 
 ## 介绍
 
-(English)[(https://github.com/shuxhan/hexo-theme-simple99/blob/main/README.md)] | 中文简体
+(English)[https://github.com/shuxhan/hexo-theme-simple99/blob/main/README.md] | 中文简体
 
 基于hexo系统的一款简洁风博客主题，主题色调偏淡色，视觉效果柔和，采用双栏卡片式设计，功能齐全。
 
