@@ -133,7 +133,7 @@ cover:  # Title background image
 
 - [x] You can leave a message in Issues
 - [x] Send an email to shuxhan@163.com
-- [x] [Message](https://shuxhan.com/comments) in the message area of my blog,
+- [x] [Message](https://shuxhan.com/message) in the message area of my blog,
 
 I will see and reply the first time
 
