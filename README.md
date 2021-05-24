@@ -1,5 +1,7 @@
 # hexo-theme-simple99
 
+![](https://cdn.jsdelivr.net/gh/shuxhan/pic-cdn@685e042725027993ee8f76f0cc691a5dc82066b1/2021/05/24/6b6e33b20219b7d305acc92034e4f10d.png)
+
 ## Introduction
 
 English document | [中文简体](https://github.com/shuxhan/hexo-theme-simple99/blob/main/README-zh.md)
