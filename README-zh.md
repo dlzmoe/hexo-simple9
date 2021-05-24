@@ -123,7 +123,7 @@ cover:  # 标题背景图片
 4. 如有其他问题，
 - [x] 可在 Issues 留言，
 - [x] 给 shuxhan@163.com 发一封电子邮件，
-- [x] 在我的博客留言区进行[留言](https://shuxhan.com/comments)，
+- [x] 在我的博客留言区进行[留言](https://shuxhan.com/message)，
    
 我都会在第一时间看到并回复。
 
