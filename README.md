@@ -1,6 +1,6 @@
 <p align="center"><img src="https://cdn.jsdelivr.net/gh/shuxhan/pic-cdn@685e042725027993ee8f76f0cc691a5dc82066b1/2021/05/24/6b6e33b20219b7d305acc92034e4f10d.png"></p>
 
-<p align="center"><h2>hexo-theme-simple99<h2></p>
+<h2 style="text-align:center">hexo-theme-simple99<h2>
 
 ## Introduction
 
