@@ -1,6 +1,5 @@
+## hexo-theme-simple99
 <p align="center"><img src="https://cdn.jsdelivr.net/gh/shuxhan/pic-cdn@685e042725027993ee8f76f0cc691a5dc82066b1/2021/05/24/6b6e33b20219b7d305acc92034e4f10d.png"></p>
-
-<h2 style="text-align:center">hexo-theme-simple99<h2>
 
 ## Introduction
 
@@ -92,7 +91,7 @@ npm install --save hexo-generator-search
 
 2. Total word count of blog
 ```shell
-npm i --save hexo-wordcount
+npm install --save hexo-wordcount
 ```
 
 3. Top function plugin
@@ -113,7 +112,7 @@ npm install --save hexo-browsersync
 
 ## Instructions for use
 
-1.  The blog can be configured with the [_config.yml] theme configuration
+1.  The blog can be configured with the `config.yml` theme configuration
 2.  The comment system has built-in twikoo static comment system, you can refer to [official document](https://twikoo.js.org) for configuration, `../themes/hexo-theme-simple99/layout/partials/comments.ejs` file is Comment system configuration file
 3.  ［about］
     When modifying, enter `../themes/hexo-theme-simple99/layout/about.ejs` to fill in your own content, if you don’t need [About], please comment out `about: /about` in the theme configuration
@@ -135,7 +134,7 @@ cover:  # Title background image
 
 - [x] You can leave a message in Issues
 - [x] Send an email to shuxhan@163.com
-- [x] [Message](https://shuxhan.com/message) in the message area of my blog,
+- [x] [Message](https://shuxhan.com/about.html) in the message area of my blog,
 
 I will see and reply the first time
 
