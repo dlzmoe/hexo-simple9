@@ -85,7 +85,7 @@ npm install --save hexo-generator-search
 
 2. 博客总字数统计
 ```shell
-npm i --save hexo-wordcount
+npm install --save hexo-wordcount
 ```
 
 3. 置顶功能插件
@@ -106,8 +106,8 @@ npm install --save hexo-browsersync
 
 ## 使用说明
 
-1.  可依靠[_config.yml]主题配置对博客进行配置
-2.  评论系统内置 twikoo 静态评论系统，可以参照[官方文档](https://twikoo.js.org)进行配置，`../themes/hexo-theme-simple99/layout/partials/comments.ejs`文件是评论系统的配置文件
+1.  可依靠 `config.yml` 主题配置对博客进行配置
+2.  评论系统内置 twikoo 静态评论系统，可以参照 [官方文档](https://twikoo.js.org)进行配置，`../themes/hexo-theme-simple99/layout/partials/comments.ejs`文件是评论系统的配置文件
 3. ［关于］
    修改时进入`../themes/hexo-theme-simple99/layout/about.ejs`填写自己的内容，如不需要[关于]，请在主题配置中注释掉`about: /about`
 3.  文章生成(所有标签内容，使用时可酌情选取自己所需)
@@ -125,7 +125,7 @@ cover:  # 标题背景图片
 4. 如有其他问题，
 - [x] 可在 Issues 留言，
 - [x] 给 shuxhan@163.com 发一封电子邮件，
-- [x] 在我的博客留言区进行[留言](https://shuxhan.com/message)，
+- [x] 在我的博客进行 [留言](https://shuxhan.com/about.html)，
    
 我都会在第一时间看到并回复。
 
