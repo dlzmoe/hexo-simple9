@@ -1,5 +1,5 @@
 ## hexo-theme-simple99
-<p align="center"><img src="https://cdn.jsdelivr.net/gh/shuxhan/pic-cdn@685e042725027993ee8f76f0cc691a5dc82066b1/2021/05/24/6b6e33b20219b7d305acc92034e4f10d.png"></p>
+<p align="center"><img src="https://cdn.jsdelivr.net/gh/shuxhan/pic-cdn@0ee05c5f8730146f48972cfe2786e761d3019f4a/2021/08/02/5e83f70b103112992a74822b15f852d5.png"></p>
 
 ## Introduction
 
