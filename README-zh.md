@@ -1,10 +1,10 @@
 # hexo-theme-simple99
 
-![](https://cdn.jsdelivr.net/gh/shuxhan/pic-cdn@685e042725027993ee8f76f0cc691a5dc82066b1/2021/05/24/6b6e33b20219b7d305acc92034e4f10d.png)
+![](https://cdn.jsdelivr.net/gh/Nov8nana/pic-cdn@685e042725027993ee8f76f0cc691a5dc82066b1/2021/05/24/6b6e33b20219b7d305acc92034e4f10d.png)
 
 ## 介绍
 
-[English](https://github.com/shuxhan/hexo-theme-simple99/blob/main/README.md) | 中文简体
+[English](https://github.com/Nov8nana/hexo-theme-simple99/blob/main/README.md) | 中文简体
 
 基于hexo系统的一款简洁风博客主题，主题色调偏淡色，视觉效果柔和，采用双栏卡片式设计，功能齐全。
 
@@ -20,7 +20,7 @@ ps：本主题耦合性极低，可自由搭配页面的组合，感兴趣的同
 
 ## 下载地址
 
-* github 仓库：[https://github.com/shuxhan/hexo-theme-simple99](https://github.com/shuxhan/hexo-theme-simple99)
+* github 仓库：[https://github.com/Nov8nana/hexo-theme-simple99](https://github.com/shuxhan/hexo-theme-simple99)
 * gitee 仓库：[https://gitee.com/shuxhan/hexo-theme-simple99](https://gitee.com/shuxhan/hexo-theme-simple99)
 
 ## 主题使用展示
@@ -49,7 +49,7 @@ ps：本主题耦合性极低，可自由搭配页面的组合，感兴趣的同
 1. 下载主题源码
 ```shell
 cd themes
-git clone https://github.com/shuxhan/hexo-theme-simple99.git
+git clone https://github.com/Nov8nana/hexo-theme-simple99.git
 ```
 2. _config.yml 
 ```js
@@ -131,7 +131,7 @@ cover:  # 标题背景图片
 
 ## 常见问题
 
-[点击查看常见问题](https://github.com/shuxhan/hexo-theme-simple99/issues?q=is%3Aissue+is%3Aopen+label%3A%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98)
+[点击查看常见问题](https://github.com/Nov8nana/hexo-theme-simple99/issues?q=is%3Aissue+is%3Aopen+label%3A%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98)
 
 ## 参与贡献
 
@@ -140,4 +140,4 @@ cover:  # 标题背景图片
 
 ## 作者
 
-[shuxhan](https://github.com/shuxhan)
+[Nov8nana](https://github.com/Nov8nana)
