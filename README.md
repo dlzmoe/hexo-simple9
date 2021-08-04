@@ -1,9 +1,9 @@
 ## hexo-theme-simple99
-<p align="center"><img src="https://cdn.jsdelivr.net/gh/shuxhan/pic-cdn@0ee05c5f8730146f48972cfe2786e761d3019f4a/2021/08/02/5e83f70b103112992a74822b15f852d5.png"></p>
+<p align="center"><img src="https://cdn.jsdelivr.net/gh/Nov8nana/pic-cdn@0ee05c5f8730146f48972cfe2786e761d3019f4a/2021/08/02/5e83f70b103112992a74822b15f852d5.png"></p>
 
 ## Introduction
 
-English document | [中文简体](https://github.com/shuxhan/hexo-theme-simple99/blob/main/README-zh.md)
+English document | [中文简体](https://github.com/Nov8nana/hexo-theme-simple99/blob/main/README-zh.md)
 
 A simple style blog theme based on the hexo system, the theme is pale in color, and the visual effect is soft. It adopts a double-column card design and is fully functional.
 
@@ -19,7 +19,7 @@ ps：The coupling of this theme is extremely low, and the combination of pages c
 
 ## Repo
 
-* github repo：[https://github.com/shuxhan/hexo-theme-simple99](https://github.com/shuxhan/hexo-theme-simple99)
+* github repo：[https://github.com/Nov8nana/hexo-theme-simple99](https://github.com/shuxhan/hexo-theme-simple99)
 * gitee repo：[https://gitee.com/shuxhan/hexo-theme-simple99](https://gitee.com/shuxhan/hexo-theme-simple99)
 
 ## Theme demo
@@ -49,7 +49,7 @@ You will find a lot of different things, some content I did not put in the confi
 
 ```shell
 cd themes
-git clone https://github.com/shuxhan/hexo-theme-simple99.git
+git clone https://github.com/Nov8nana/hexo-theme-simple99.git
 ```
 
 2. _config.yml 
@@ -140,7 +140,7 @@ I will see and reply the first time
 
 ## Common lofty mention
 
-[Click to view FAQ](https://github.com/shuxhan/hexo-theme-simple99/issues?q=is%3Aissue+is%3Aopen+label%3A%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98)
+[Click to view FAQ](https://github.com/Nov8nana/hexo-theme-simple99/issues?q=is%3Aissue+is%3Aopen+label%3A%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98)
 
 ## Participate in contribution
 
@@ -149,4 +149,4 @@ I will see and reply the first time
 
 ## Author
 
-[shuxhan](https://github.com/shuxhan)
+[Nov8nana](https://github.com/Nov8nana)
