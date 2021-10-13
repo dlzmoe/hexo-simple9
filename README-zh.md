@@ -18,6 +18,8 @@
 
 ps：本主题耦合性极低，可自由搭配页面的组合，感兴趣的同学可以在代码里面尽情摸索。
 
+**提示：如果报错，请检查是否安装插件依赖！**
+
 ## 下载地址
 
 * github 仓库：[https://github.com/Nov8nana/hexo-theme-simple99](https://github.com/shuxhan/hexo-theme-simple99)
